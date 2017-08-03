@@ -248,14 +248,11 @@ nav li a:hover{
     </div>
     <!--BLOCK4-->
     <style>
-        .block4-carusel{
-            background: none;
-            padding: 0;
-
-        }
-       
-        .carusel img{
-                      
+ .block4-carusel{
+      background: none;
+      padding: 0;
+ }       
+ .carusel img{       
   width: 100%;
   height: 638px;
   /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
@@ -289,7 +286,22 @@ nav li a:hover{
   width: 100%;
   overflow: hidden;
 } 
-/*text*/
+/*.but*/
+.but{
+        padding: 0; 
+        }
+        .fa fa-angle-left{
+            float:  left;
+            margin-left: 57px;
+            height: 43px;
+            width: 25px;
+        }
+        .fa fa-angle-right{
+            float: right;
+            margin-right: 17px;
+            height: 43px;
+            width: 25px;
+        }
 .example2 {
        
     position:absolute;
@@ -330,19 +342,23 @@ nav li a:hover{
     </style>
     <div class="block4-carusel">     
         <div id="carousel" class="carousel">
-            <button class="arrow prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+            
                 <div class="gallery">
                     <ul class="images">
                         <li><img src="img/man.png"></li>
                     </ul>
                 </div>
-            <button class="arrow prev"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            
         </div>
+    </div>
+    <div class="but">
+        <button class="arrow prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <button class="arrow prev"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
     </div> 
     <div class="example2">
         <p class="block4-title-red">We provide innovative</p>
         <p class="block4-title">Battery back-up solutions for  bussiness.</p>
-        <p class="block4-title">Vrla batteries are in stock for immediate delivery.</p>         
+        <p class="block4-title-last">Vrla batteries are in stock for immediate delivery.</p>         
     </div>     
   </div><!--/absol-->                      
    
