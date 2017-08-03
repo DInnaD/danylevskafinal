@@ -254,7 +254,35 @@ nav li a:hover{
   /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
   display: block;
 }
-        }
+  .arrow {
+  position: absolute;
+  
+  /*background: #ddd;*/
+  /*border-radius: 15px;*/
+  /*border: 1px solid gray;*/
+  
+  /*line-height: 24px;*/
+  color: #fff;
+  display: block;
+}
+.arrow:focus {
+  outline: none;
+}
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 100%;/*not know*/
+}
+.gallery {
+  width: 100%;
+  overflow: hidden;
+}      
+        
     </style>
     <div class="block4-carusel">     
         <div id="carousel" class="carousel">
