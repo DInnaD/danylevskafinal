@@ -95,7 +95,7 @@ a:hover{
 }
 .block2-static-info li p:first-of-type{
     float: left;
-    margin-right: 15px;
+    margin-right: 8px;
     color: #000;
     font-size: 18px;
 }
@@ -115,4 +115,35 @@ a:hover{
     padding-right: 0;
     margin-right: 0;
 }
+   /*block3-menu*/ 
+/*.mobile-menu{}*/
+.navigation{
+    background: #000;
+    padding: 0 127px;
+    position: relative;
+}
+.navigation nav{
+    float: left;
+}
+nav li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 24px 16px 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 7px solid transparent;
+}
+nav li a:hover{
+    color: #fff;
+    border-bottom: 6px solid #bd2631;
+}
+.current a{
+    border-bottom: 6px solid #bd2631;
 
+}
+.search{
+    float: right;
+    color: #fff;
+    line-height: 3.5;
+    font-size: 19px;
+}
