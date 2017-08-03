@@ -105,12 +105,11 @@ a:hover{
 .block2-static-info p > span{
     display: block;
 }
-.block2-static-info ul li{
-    padding-right: 35px;
+.block2-static-info ul li {
+    padding-right: 8px;
     border-right: 1px solid #e6e6e6;
     margin-right: 20px;
-    margin-top: 
-}
+
 .block2-static-info ul li:last-of-type{
     border-right: none;
     padding-right: 0;
