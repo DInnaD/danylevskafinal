@@ -249,14 +249,20 @@ nav li a:hover{
     <!--BLOCK4-->
     <style>
  .block4-carusel{
-      background: none;
-      padding: 0;
+     background: none;
+     width: 100%;
+     height: 638px;
+     padding: 0;
  }       
  .carusel img{       
-  width: 100%;
-  height: 638px;
+  
   /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
-  display: block;
+  
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
+}
 }
   .arrow {
   position: absolute;
@@ -455,8 +461,11 @@ margin-top: 30px;
     
     /*padding-right: 10px;*/
 }
-.inner-content25-pic-pic-pic{
-/*background: url(img/);*/
+.inner-content25-pic-pic-pic img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
 }
 .content50-pic-pic-pic{
     width: 50%;
@@ -464,8 +473,11 @@ margin-top: 30px;
     position: relative;
     /*padding-right: 10px;*/
 }
-.inner-content50-pic-pic-pic{
-/*background: url(img/);*/
+.inner-content50-pic-pic-pic img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
 }
 
 .example-left{
@@ -506,7 +518,13 @@ margin-top: 30px;
 }        
 
 /********************************************************10/
-/*  BLOCK10  */
+/*  BLOCK10 
+        img
+         width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
+        */
 .block10-static-info-sgr{
     background: #fffdfe;
     padding: 20px 100px;
@@ -548,6 +566,12 @@ margin-top: 30px;
     text-align: center;
     margin-right: 20px;
     
+}
+.block10-sgr-item ul li img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
 }
 .block10-sgr-item ul li:last-of-type{
     
@@ -619,8 +643,11 @@ margin-top: 30px;
     float:right;
     /*padding-left: 10px;*/
 }
-.inner-content36-nopic-pic{
-/*background: url(img/);*/
+.inner-content36-nopic-pic img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
 }
     
 
@@ -640,8 +667,11 @@ margin-top: 30px;
     width: 20%;
     float:left;    
 }
-.inner-content20-pic-pic-pic-pic-pic{
-/*background: url(img/);*/
+.inner-content20-pic-pic-pic-pic-pic img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
 }
 
 /********************************************************13/
@@ -693,7 +723,7 @@ nav li a:hover{
             <div class="block7-row">
                 <div class="content50-pic-pic-pic" style="position: relative">
                     <div class="inner-content50-pic-pic-pic">
-                    <img src="img/Products.png" alt="">
+                    <img src="img/Products.jpg" alt="">
                     </div>
                     <div class="example-left" style="position: absolute; top: 0; bottom: 0; right: 0; left: 0;">
                             <p class="block789-title-red">Products</p>
@@ -704,7 +734,7 @@ nav li a:hover{
                 </div>
                 <div class="content25-pic-pic-pic">
                     <div class="inner-content25-pic-pic-pic">
-                    <img src="img/loader.png" alt="">                    
+                    <img src="img/loader.jpg" alt="">                    
                     </div>
                 </div>
                 <div class="content25-pic-pic-pic">
@@ -723,7 +753,7 @@ nav li a:hover{
             <div class="block8-row">
                 <div class="content25-pic-pic-pic">
                     <div class="inner-content25-pic-pic-pic">
-                    <img src="img/control.png" alt="">
+                    <img src="img/control.jpg" alt="">
                     </div> 
                 </div>
                 <div class="content25-pic-pic-pic">
@@ -733,7 +763,7 @@ nav li a:hover{
                 </div>
                 <div class="content50-pic-pic-pic" >
                     <div class="inner-content50-pic-pic-pic" >
-                    <img src="img/services.png" alt="">            
+                    <img src="img/services.jpg" alt="">            
                     </div>
                     <div class="example-right" style="position: absolute; top: 0; bottom: 0; right: 0; left: 0;">
                             <p class="block789-title-red">Services</p>
@@ -753,7 +783,7 @@ nav li a:hover{
             <div class="block9-row">
                 <div class="content50-pic-pic-pic" style="position: relative;">
                     <div class="inner-content50-pic-pic-pic">
-                    <img src="img/disposal.png" alt="">
+                    <img src="img/disposal.jpg" alt="">
                     </div>
                     <div class="example-left" style="position: absolute;">
                             <p class="block789-title-red">Battery Disposal</p>
@@ -768,7 +798,7 @@ nav li a:hover{
                 </div>
                 <div class="content25-pic-pic-pic">
                     <div class="inner-content25-pic-pic-pic">
-                    <img src="img/ups.png" alt="">            
+                    <img src="img/ups.jpg" alt="">            
                     </div>
                 </div>   
             </div>
@@ -872,6 +902,130 @@ nav li a:hover{
         </div>    
     </div>
 </section>
+    <!--block14-->
+    <style>
+    /*  BLOCK14  */
+.block14-contacts-information-logos{
+    background: #ffffff;
+    padding: 194px 64px;
+}
+.logos-social-icons{
+    display: inline-block;
+    float: left;
+    margin-top: 0px;    
+}
+.logos-social-icons ul li{
+    margin-right: 83px;
+}
+.logos-social-icons ul li img{        
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover; 
+}
+/*  BLOCK15  */
+.block15-contacts-information-before-footer-t-t-t-t{
+    background: #242424;
+    padding: 0;
+
+  
+}
+.block15-inner-static-info-t-t-t-t{
+    float: left;    
+    width: 100%;    
+    min-height: 350px;/*f*/
+    padding-top: 67px;
+}
+.content25-t-t-t-t{    
+    float:left;   
+    width: 25%; 
+    text-align: center;
+}
+/*.content25-t-t-t-t: last-child{    
+    float:left;   
+    width: 20%; 
+}*/
+.block15-title-red{
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 67px;
+    margin-bottom: 51px;
+}
+.block15-subtitle-red{ 
+    color: red;
+    font-weight: 300;
+    font-size: 12px;
+}
+.block15-subtitle{
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;    
+}
+.block15-static-info li p:first-of-type{
+    float: left;
+    margin-right: 15px;
+    color: #242424;
+}
+.block15-static-info li p:last-of-type{
+    display: inline-block;
+}
+.block15-static-info p > span{
+    display: block;
+}
+.block15-static-info a{
+    color: #fff;
+}    
+.block15-static-info ul li{
+    padding-right: 35px;
+    padding-left: 35px;
+    border-right: 1px solid #fff;
+    margin-right: 20px;
+}
+.block15-static-info ul li:last-of-type{
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    margin-right: 0;
+}
+.content25-t-t-t-t br .next{
+    margin-bottom: 24px;
+    font-size: ;/*f*/
+}
+.content25-t-t-t-t br .link{
+    margin-bottom: 28px;/*f*/
+    font-size: ;/*f*/
+    text-align: center;
+}
+.content25-t-t-t-t br .tweets{
+    margin-bottom: 28px;/*f*/
+    font-size: ;/*f*/
+    text-align: center;
+}
+.content25-t-t-t-t br .contact{
+    margin-bottom: 28px;/*f*/
+    font-size: ;/*f*/
+    text-align: center;
+}
+
+/*  BLOCK16  */
+.lock16-footer{
+    background: #131313;
+    padding: 50px 50px;
+}
+.r-footer {
+    float: right;
+    color: #fff;
+    font-size: 18px;
+}
+.l-footer {
+    float: left;
+    color: #fff;
+    font-size: 18px;
+ }
+/*    END   */
+
+    </style>
 <section>
     <div class="block14-contacts-information-logos clearfix" >
        <div class="logos-social-icons">
@@ -969,6 +1123,111 @@ nav li a:hover{
         </div>
     </div>
 </section>
+<style>
+/*   RESPONSIVE   */
+/*@ -1---*//*
+.mobile-menu{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+    display: none;
+    cursor: pointer;
+}
+    
+.fa:before{
+color: #111; /*черный цвет
+font-size:12px /*размер иконки 12 пикселей в ширину и высоту
+}
+*/
+@media screen and (max-width: 1060px){
+    .logo,
+    .static-info{
+        float: none;
+    }
+    .logo-section{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 995px){
+    .block{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    nav li a{
+        font-size: 14px;
+        padding: 24px 12px 16px;
+    }
+}
+@media screen and (max-width: 760px){
+    .navigation{
+        position: relative;
+    }
+    div.phone,
+    div.address{
+        display: block;
+        margin: 10px 0;
+    }
+    nav ul{
+        display: none;
+        position: absolute;
+        background: #000;
+        top: 66px;
+        left: 0;
+        width: 100%;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    #menu li{
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    #menu li a,
+    #menu li a:hover{
+        border-bottom: none;
+    }
+    #menu li a{
+        padding: 0;
+    }
+    #menu li:last-of-type{
+        border-bottom: none;
+    }
+}
+@media screen and (max-width: 570px){
+    .static-info ul li{
+        display: block;
+        padding-right: 0;
+        margin: 10px 0;
+        border: none;
+        width: 160px;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 440px){
+    .contacts-information > div {
+        float: none;
+    }
+    .social-icons ul li {
+         margin: 0 20px 0 0;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 390px) {
+    .block {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    nav ul{
+        padding: 0 20px;
+    }
+}
+</style>
             
 </body>
 </html>
