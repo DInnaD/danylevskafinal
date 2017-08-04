@@ -218,7 +218,41 @@ nav li a:hover{
     
     
     
-    
+.block6-logo-section2-contacts-information1-text-nav{
+	background: #bd2631; 
+	padding: 30px 1px 34px 1px;
+	}
+.block6-left-text-static-info{
+    float: left;
+}
+.block6-left-text-static-info p{
+font-weight: 0;
+color: #fff;
+padding-left: 138px;
+}
+.block6-title{
+    font-size: 30px;
+}
+.block6-subtitle{
+    font-size: 24px;
+}
+	    
+.right-button{	
+float: right;
+background: #ffffff;
+color: #333;
+border-radius: 3px;
+display: block;
+width: 105px;
+padding: 12px;
+margin: 0 25px;
+text-decoration: none;
+text-align: center;
+
+font-weight: bold;
+font-size: 18px;
+margin-top: 13px;
+}    
     
     
     
