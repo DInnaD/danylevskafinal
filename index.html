@@ -278,39 +278,25 @@ nav li a:hover{
     height: auto;
     display: block;
 }
-  /*.arrow {
-  position: absolute;
+.arrow{
+position: absolute;
+width: 0;/*27px*/
+height: 0;/*27px*/
+top: 46%;
+/*background: rgba(0,0,0,.8);*/
+opacity: 0;
+transition: 0.3s ease;
+padding: 0;
+font-size: 43px;
 
-  color: #fff;
-  display: inline-block;
 }
 .arrow:focus {
   outline: none;
 }
 .arrow:hover {
-  background: #ccc;
+  background: rgba(0,0,0,.8);
   cursor: pointer;
-}
-.prev {
-  float: left;  
-  left: 0;
-}
-.next {
-    float: right;
-  
-}*/
-
-
-.arrow{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 46%;
-    background: #fff;
-    opacity: 0;
-
-    transition: 0.3s ease;
-}
+}	    
 
 .left{
     left: -20px;
@@ -337,7 +323,7 @@ nav li a:hover{
 /*.but*/
 .but{
 margin: 0;
-    padding: 0; 
+padding: 0; 
         }
         .fa fa-angle-left{
             float:  left;
