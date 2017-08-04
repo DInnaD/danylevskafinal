@@ -187,30 +187,43 @@ nav li a:hover{
   /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
   display: block;
 }
-  .arrow {
-  position: absolute;
-  
-  /*background: #ddd;*/
-  /*border-radius: 15px;*/
-  /*border: 1px solid gray;*/
-  
-  /*line-height: 24px;*/
-  color: #fff;
-  display: block;
+#slider{
+    width: 500px;
+    height: 150px;
+    background: blue;
+    position: relative;
+    overflow: hidden;
 }
-.arrow:focus {
-  outline: none;
+
+.arrow{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 46%;
+    background: #fff;
+    opacity: 0;
+
+    transition: 0.3s ease;
 }
-.arrow:hover {
-  background: #ccc;
-  cursor: pointer;
+
+.left{
+    left: -20px;
+ }
+
+.right{
+    right: -20px;
 }
-.prev {
-  left: 50px;
+
+#slider:hover .left{
+    left: 20px;
+    opacity: 1;
 }
-.next {
-  right: 100px;/*not know*/
+
+#slider:hover .right{
+    right: 20px;
+    opacity: 1;
 }
+
 .gallery {
   width: 100%;
   overflow: hidden;
