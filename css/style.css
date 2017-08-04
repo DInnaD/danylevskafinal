@@ -41,7 +41,8 @@ a:hover {
 
 /*ROW*/
 
-.block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-row: after {
+/*.block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-*/
+.row: after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -49,13 +50,14 @@ a:hover {
 	clear: both;
 	height: 0;
 }
-.block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-row {
+/*.block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-*/
+.row {
 	display: inline-block;
 }
-.html .block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-row {
+.html /*.block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-*/.row {
 	height: 1%
 }
-.block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-row {
+/*.block7-row, .block8-row, .block9-row, .block11-row, .block12-row, .block13-row, .block15-*/.row {
 	display: block;
 }
 
@@ -178,7 +180,8 @@ a:hover {
 		line-height: 3.5;
 		font-size: 19px;
 	}
-	<!--BLOCK4-->.block4-carusel {
+	/*BLOCK4*/
+	.block4-carusel {
 		background: none;
 		width: 100%;
 		height: 638px;
