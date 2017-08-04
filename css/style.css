@@ -135,9 +135,11 @@ a:hover{
     padding-right: 0;
     margin-right: 0;
 }
-  /*  BLOCK3  */
-.rel {
-    position: relative; 
+ /*  BLOCK3  */
+/*.rel {*/
+#slider{ 
+    position: relative;
+    overflow: hidden;     
   }
 .mobile-menu{
            
@@ -147,7 +149,7 @@ a:hover{
     background: rgba(0,0,0,.8);
     padding: 0 127px;
     position: absolute;
-     left: 0;
+    left: 0;
     right: 0;
     
 }
@@ -176,35 +178,45 @@ nav li a:hover{
     line-height: 3.5;
     font-size: 19px;
 }
-    /*block4 slider*/
-.block4-carusel{
-  background: none;
-  padding: 0;
-  }
-.carusel img{  
-  width: 100%;
-  height: 638px;
+<!--BLOCK4-->
+ 
+ .block4-carusel{
+     background: none;
+     width: 100%;
+     height: 638px;
+     padding: 0;
+ }       
+ .carusel img{       
+  
   /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
-  display: block;
+  
+    width: 100%;
+    height: auto;
+    display: block;
 }
-#slider{
-    width: 500px;
-    height: 150px;
-    background: blue;
-    position: relative;
-    overflow: hidden;
-}
-
 .arrow{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 46%;
-    background: #fff;
-    opacity: 0;
+position: absolute;
+width: 0;/*27px*/
+height: 0;/*27px*/
+top: 53%;
+/*background: rgba(0,0,0,.8);*/
+opacity: 0;
+transition: 0.3s ease;
+padding: 0;
+font-size: 43px;
 
-    transition: 0.3s ease;
 }
+/*.arrow:focus {
+  outline: none;
+}*/
+.arrow:hover {
+cursor: pointer;	
+/*  background: rgba(0,0,0,.8);  
+top: 255px;	
+width: 27px;
+height:  27px;
+padding: 10px;*/
+}	    
 
 .left{
     left: -20px;
@@ -228,8 +240,59 @@ nav li a:hover{
   width: 100%;
   overflow: hidden;
 } 
-    
-    
+/*.but*/
+.but{
+margin-right: 57px;
+padding: 0; 
+        }
+        .fa fa-angle-left{
+            float:  left;
+            margin-left: 57px;
+            height: 43px;
+            width: 25px;
+        }
+        .fa fa-angle-right{
+            float: right;
+            margin-right: 27px;
+            height: 43px;
+            width: 25px;
+        }
+	    
+
+.block4-example2 {       
+position:absolute;
+top: 270px;
+bottom: 0;
+right: 0;
+left: 130px;
+padding-left: 115px:
+padding-top: 222px;
+float: left;	
+}
+.block4-example2 p{    
+   margin-bottom: 20px;
+}                     
+.block4-title-red{ 
+    margin-bottom: 62px;    
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;	 
+ }        
+.block4-title{
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:43px;
+    font-weight: bold;      
+ }  
+.block4-title-last{ 
+    margin-top: 52px;
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:24px;
+    text-transform: uppercase;
+       
+ }      
     
 .block6-logo-section2-contacts-information1-text-nav{
 	background: #bd2631; 
