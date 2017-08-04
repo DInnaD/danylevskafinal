@@ -201,7 +201,7 @@ a:hover{
     background: rgba(0,0,0,.8);
     padding: 0 127px;
     position: absolute;
-     left: 0;
+    left: 0;
     right: 0;
     
 }
@@ -261,8 +261,6 @@ nav li a:hover{
     width: 100%;
     height: auto;
     display: block;
-    background-size: cover;
-}
 }
   .arrow {
   position: absolute;
@@ -273,7 +271,7 @@ nav li a:hover{
   
   /*line-height: 24px;*/
   color: #fff;
-  display: block;
+  display: inline-block;
 }
 .arrow:focus {
   outline: none;
@@ -283,10 +281,12 @@ nav li a:hover{
   cursor: pointer;
 }
 .prev {
+  float: left;  
   left: 0;
 }
 .next {
-  right: 100%;/*not know*/
+    float: right;
+  /*right: 100%;/*not know*/
 }
 .gallery {
   width: 100%;
@@ -294,7 +294,8 @@ nav li a:hover{
 } 
 /*.but*/
 .but{
-        padding: 0; 
+margin: 0;
+    padding: 0; 
         }
         .fa fa-angle-left{
             float:  left;
@@ -455,7 +456,13 @@ margin-top: 30px;
     float:left;
     min-height: 452px;
 }
-    .content25-pic-pic-pic{
+.content50-pic-pic-pic{
+    width: 50%;
+    float:left;
+    position: relative;
+    /*padding-right: 10px;*/
+}
+.content25-pic-pic-pic{
     width: 25%;
     float:left;
     
@@ -465,19 +472,14 @@ margin-top: 30px;
     width: 100%;
     height: auto;
     display: block;
-    background-size: cover;
+    
 }
-.content50-pic-pic-pic{
-    width: 50%;
-    float:left;
-    position: relative;
-    /*padding-right: 10px;*/
-}
+
 .inner-content50-pic-pic-pic img{
     width: 100%;
     height: auto;
     display: block;
-    background-size: cover;
+    
 }
 
 .example-left{
@@ -571,7 +573,7 @@ margin-top: 30px;
     width: 100%;
     height: auto;
     display: block;
-    background-size: cover;
+    
 }
 .block10-sgr-item ul li:last-of-type{
     
@@ -628,7 +630,7 @@ margin-top: 30px;
     
     width: 100%;
     float:left;
-    min-height: 350px;
+    min-height: 192px;
 }
     .content64-nopic-pic{
     width: 64%;
@@ -647,7 +649,7 @@ margin-top: 30px;
     width: 100%;
     height: auto;
     display: block;
-    background-size: cover;
+    
 }
     
 
@@ -661,7 +663,7 @@ margin-top: 30px;
     
     width: 100%;
     float:left;
-    min-height: 300px;
+    min-height: 351px;
 }
 .content20-pic-pic-pic-pic-pic{
     width: 20%;
@@ -671,7 +673,7 @@ margin-top: 30px;
     width: 100%;
     height: auto;
     display: block;
-    background-size: cover;
+    
 }
 
 /********************************************************13/
@@ -743,13 +745,13 @@ nav li a:hover{
                     </div>
                 </div>   
             </div>
-        </div>        
+        <!--/div>        
     </div>
 </section>
-<!--8--pic-->
+<!--8--pic--
 <section>  
     <div class="block8-content-pic-pic-pic clearfix">
-        <div class="block8-inner-content-pic-pic-pic">
+        <div class="block8-inner-content-pic-pic-pic"-->
             <div class="block8-row">
                 <div class="content25-pic-pic-pic">
                     <div class="inner-content25-pic-pic-pic">
@@ -773,13 +775,13 @@ nav li a:hover{
                      </div> 
                 </div>   
             </div>
-        </div>        
+        <!--/div>        
     </div>
 </section>
-<!--9--pic-->
+<!--9--pic--
 <section>  
     <div class="block9-content-pic-pic-pic clearfix">
-        <div class="block9-inner-content-pic-pic-pic">
+        <div class="block9-inner-content-pic-pic-pic"-->
             <div class="block9-row">
                 <div class="content50-pic-pic-pic" style="position: relative;">
                     <div class="inner-content50-pic-pic-pic">
