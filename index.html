@@ -608,45 +608,103 @@ padding-right: 20px:/*forgot*/
 /********************************************************11/
 /*  BLOCK11  */
     
+	/*  BLOCK10 h=461 */
+.block10-static-info-sgr{
+    background: #fffdfe;
+    padding: 0;
+}
+.block10-sgr-item{
+    padding-right: 167px;
+    padding-top: 48px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+.block10-sgr-item img{
+	width: 100%;
+    min-height: 60px;
+}
+.sgr-title{
+    color: red;
+    font-weight: 600;
+    font-size: 36px;
+                    
+}
+.sgr-subtitle{
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+                  
+}
+.block10-sgr-item li p:first-of-type{
+    float: left;
+    margin-left: 50px;
+    margin right: 50px;
+}
+.block10-sgr-item li p:last-of-type{
+    display: inline-block;
+}
+.block10-sgr-item p > span{
+    display: block;
+}
+.block10-sgr-item ul li{
+    padding-right: 48px;
+    text-align: center;
+    margin-right: 50px;
+    
+}
+.block10-sgr-item ul li:last-of-type{
+    
+    padding-right: 0;
+    margin-right: 0;
+}
+	/*  BLOCK11 h=192 */
+    
 .block11-logo-section-upsl-logo-critical-text{
     
     background: #3e302e;
     padding: 0;
 }
-.block11-example2 {
+.example2 {
     display:inline-block;   
     position:relative;
  
 }
-.block11-example2 .block11-logo{
+.block11-logo{
     float: left;
-    display: inline-block;
-    position: absolute; 
-    top: 100px;   
-    margin-left: 100px;                
+    display:inline-block;
+    position:absolute; 
+    top:20px;/*forgot*/   
+    padding-left: 20px;                
 }                    
-.block11-example2 span {
-    display: inline-block;
-    position: absolute;
-    top: 140px;
+.example2 span {
+    display:inline-block;
+    position:absolute;
+    top: 84px;
+    padding-left: 86px;
                    
 }
- .block11-example2 span .block11-block2-static-info-r{
+.block11-block2-static-info-r{
     float: right;      
-    margin-right: 140px;                 
+    margin-right: 0;                 
 }
-.block11-example2 span .block11-block2-static-info-l{
+.block11-block2-static-info-l{
     float: left;     
-    margin-left: 340px;
+    margin-left: 0;
                    
 } 
- .block11-example2 span .block11-title{                   
- 
+.block11-title{                   
+ /* Оформление текста */
     color:#FFF;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:20px;
-    font-weight: 600;                
-               
+    font-size:36px;
+    font-weight: 600; 
+    text-transform: uppercase;               
+    top:84px; 
+    /* Фон for text*/
+    background-color:/*rgba(0,0,0,.4)*/none;
+   
+ }
+                    
 .block11-content-nopic-pic{
     background: none;
     
@@ -657,26 +715,39 @@ padding-right: 20px:/*forgot*/
     float:left;
     min-height: 192px;
 }
-    .content64-nopic-pic{
+.content64-nopic-pic{
     width: 64%;
     float:left;
-    
-}
-.inner-content64-nopic-pic{
-/*background: url(img/);*/
 }
 .content36-nopic-pic{
     width: 36%;
-    float:right;
+    float: right;
+    min-height: 192px;/*forgot*/
     /*padding-left: 10px;*/
 }
-.inner-content36-nopic-pic img{
-    width: 100%;
-    height: auto;
-    display: block;
-    
+/*.content36-nopic-pic img{
+    width: 36%;
+    float: right;
+    height: 192px;
+}*/
+/*  BLOCK12  h= 351PIC*/
+.block12-content-pic-pic-pic-pic-pic{
+    background: none;
+    padding: 0;
 }
+.block12-inner-content-pic-pic-pic-pic-pic{
     
+    width: 100%;
+    float:left;
+    min-height: 351px;/*f*/
+}
+.content20-pic-pic-pic-pic-pic{
+    width: 20%;
+    float:left;    
+}
+.inner-content20-pic-pic-pic-pic-pic img{
+/*background: url(img/);*/
+}  
 
 /********************************************************12/
 /*  BLOCK12  PIC*/
@@ -956,7 +1027,7 @@ nav li a:hover{
     display: block;
     background-size: cover; 
 }
-/*  BLOCK15  *//*
+/*  BLOCK15  */
 .block15-contacts-information-before-footer-t-t-t-t{
     background: #242424;
     padding: 0;
@@ -981,7 +1052,7 @@ nav li a:hover{
     float:left;   
     width: 20%; 
 }*/
-/*.block15-title-red{
+.block15-title-red{
     color: red;
     font-weight: 600;
     font-size: 18px;
@@ -1049,7 +1120,7 @@ margin-bottom: 26px;
     margin-bottom: 28px;
     font-size: ;
     text-align: center;
-}*/
+}
 
 /*  BLOCK16  */
 .lock16-footer{
