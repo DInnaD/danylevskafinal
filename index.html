@@ -755,11 +755,8 @@ padding: 10px;*/
            <div class="row">
              <div class="content64-nopic-pic">
                     <div class="inner-content64-nopic-pic">
-                            <img src="">
-                            <p><span class="block11-logo">
-                            <img src="img/upsrental.png" alt="UPS">
-                            </span>
-                            <span class="block11-title">Critical Power Applications</span><p>    
+                        <p class="block11-logo"><img src="img/upsrental.png" alt="UPS"></p>
+                    	<p class="block11-title">Critical Power Applications</p> 
                     </div> 
               </div>
               <div class="content36-nopic-pic">
@@ -790,6 +787,8 @@ padding: 10px;*/
 	position: relative;
 	width: 64%;
 	height: 192px;
+	top: 0;
+	left:0;
 }
 .content36-nopic-pic {
 	position: relative;
@@ -804,32 +803,33 @@ padding: 10px;*/
 	display: block;
 	padding-left: 30px;
 }
-.block11-logo{
-    float: left;
-    
-    position:absolute; 
-    top:0px; 
-    padding-left: 20px;                
-}                    
-.block11-inner-content-nopic-pic span p{
-    display:inline-block;
-    position:absolute;
-    top: 54px;
-    padding-left: 326px;
-                   
+.inner-content64-nopic-pic {
+    float: left;    
+    padding-left: 326px;  
+    padding-top: 54;
+    position: absolute;	
 }
-.block11-title{                   
- /* Оформление текста */
-    color:#FFF;
-    font-size:36px;
-    text-transform: uppercase;               
+.block11-logo{
+	float: left;    
+    position:absolute; 
+    top: 54px; 
+    left: 326px;
+}
+.block11-title{
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
     top:84px; 
-    /* Фон for text*/
-    background-color:/*rgba(0,0,0,.4)*/none;
-   
- }
- 
-
+    /*left:20px;*/
+}
+.block11-static-info p:first-of-type{
+    float: left;
+    margin-right: 20px;
+    
+}
+.inner-content64-nopic-pic p:last-of-type{
+    display: inline-block;
+}
 </style>
 	<!--12-pic url-->
 	<section>
