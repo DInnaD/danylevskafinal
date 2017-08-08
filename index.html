@@ -396,19 +396,34 @@ div#slider {
 	height: auto;
 	display: block;
 }
-.arrow {
+.arrow-left {
 	position: absolute;
 	width: 0;
 	/*27px*/
 	height: 0;
 	/*27px*/
-	top: 48%;
+	top: 100px;
+	left: 50px;
 	/*background: rgba(0,0,0,.8);*/
 	opacity: 0;
 	transition: 0.3s ease;
 	padding: 0;
 	
 }
+.arrow-right {
+	position: absolute;
+	width: 0;
+	/*27px*/
+	height: 0;
+	/*27px*/
+	top: 100px;
+	right: 30px;
+	/*background: rgba(0,0,0,.8);*/
+	opacity: 0;
+	transition: 0.3s ease;
+	padding: 0;
+	
+}		
 /*.arrow:focus {
   outline: none;
 }*/
@@ -420,7 +435,7 @@ width: 27px;
 height:  27px;
 padding: 10px;*/
 }
-.left {
+/*.left {
 	left: -50px;
 }
 .right {
@@ -433,7 +448,7 @@ padding: 10px;*/
 #slider:hover .right {
 	right: 30px;
 	opacity: 1;
-}
+}*/
 .gallery {
 	width: 100%;
 	overflow: hidden;
