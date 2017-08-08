@@ -369,7 +369,12 @@ div#slider {
 					<i aria-hidden="true" class="fa fa-angle-right"></i>
 				</div>
 			</div>
+			<div class="arrow-left">
+				<i aria-hidden="true" class="fa fa-angle-left"></i>
+			</div>
 			<div class="block4-example2">
+				
+					
 				<p>
 						<span class="block4-title-red">We provide innovative</span>
 					
@@ -378,8 +383,13 @@ div#slider {
 					
 					
 						<span class="block4-title-last">Vrla batteries are in stock for immediate delivery.</span>
-				</p>	
-			</div>
+				</p>
+				
+				</div>	
+				<div class="arrow-right">
+					<i aria-hidden="true" class="fa fa-angle-right"></i>
+				</div>
+			
 		</div><!--/rel-->
 		<!--BLOCK4-->
 		
@@ -396,34 +406,19 @@ div#slider {
 	height: auto;
 	display: block;
 }
-.arrow-left {
+.arrow {
 	position: absolute;
 	width: 0;
 	/*27px*/
 	height: 0;
 	/*27px*/
-	top: 100px;
-	left: 50px;
+	top: 48%;
 	/*background: rgba(0,0,0,.8);*/
 	opacity: 0;
 	transition: 0.3s ease;
 	padding: 0;
 	
 }
-.arrow-right {
-	position: absolute;
-	width: 0;
-	/*27px*/
-	height: 0;
-	/*27px*/
-	top: 100px;
-	right: 30px;
-	/*background: rgba(0,0,0,.8);*/
-	opacity: 0;
-	transition: 0.3s ease;
-	padding: 0;
-	
-}		
 /*.arrow:focus {
   outline: none;
 }*/
@@ -435,7 +430,7 @@ width: 27px;
 height:  27px;
 padding: 10px;*/
 }
-/*.left {
+.left {
 	left: -50px;
 }
 .right {
@@ -448,7 +443,7 @@ padding: 10px;*/
 #slider:hover .right {
 	right: 30px;
 	opacity: 1;
-}*/
+}
 .gallery {
 	width: 100%;
 	overflow: hidden;
@@ -457,7 +452,6 @@ padding: 10px;*/
 .but {	
 	padding: 0;
 	font-size: 63px;
-	position: absolute;
 }
 .fa fa-angle-left {
 	float: left;
@@ -491,6 +485,24 @@ padding: 10px;*/
 	left: 135px;	
 	float: left;
 }
+		.arrow-left {
+			position: absolute;
+			float: left;
+			font-size: 50px;
+			top: 315px;
+	bottom: 0;
+	
+	left: 50px;
+		}
+		 .arrow-right {
+		 	position: absolute;
+			float: right;
+			font-size: 50px;
+		top: 315px;
+	bottom: 0;
+	right: 30px;
+	
+		}
 .block4-example2 p {
 	float: left;
 		
