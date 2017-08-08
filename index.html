@@ -232,7 +232,7 @@ font-size: 12px /*размер иконки 12 пикселей в ширину 
 70% { left: -60%; }
 75% { left: -70%; }
 95% { left: -80%; }
-100% { left: -100%; }
+100% { left: -120%; }
 }
 body { margin: 0; } 
 div#slider { overflow: hidden; }
@@ -249,7 +249,45 @@ div#slider {
 }	 
     </style>
 		<!--BLOCK4-->
-		
+<style type="text/css">
+			.but-2 {
+	color: #fff;			
+	padding: 0;
+	font-size: 63px;
+	position: absolute;
+	width: 0;
+	/*27px*/
+	height: 0;
+	/*27px*/
+	top: 300px;
+	right: 0;
+	left: 0;
+	/*background: rgba(0,0,0,.8);*/
+	opacity: 0;
+	
+	padding: 40px;
+}
+.left-arrow {
+	left: 30px;
+	
+}
+.right-arrow {
+	right: 30px;
+	
+}
+.left-arrow, .right-arrow:hover {
+	cursor: pointer;
+
+}
+			</style>
+			<div class="but-2">
+				<div class="arrow-left">
+					<i aria-hidden="true" class="fa fa-angle-left"></i>
+				</div>
+				<div class="arrow-right">
+					<i aria-hidden="true" class="fa fa-angle-right"></i>
+				</div>
+			</div>		
 	<style>
 .block4-carusel {
 	background: none;
@@ -1274,7 +1312,7 @@ font-size:12px /*размер иконки 12 пикселей в ширину �
 
 /*   RESPONSIVE   */
 @media screen and (max-width: 1060px){
-    .logo, .block15-inner-static-info-t-t-t-t, .content64-nopic-pic, .content36-nopic-pic, .logos-social-icons, .block10-sgr-logos, .block1-contacts-information, .block2-logo-section, .block6-block6-logo-section2-contacts-information1-text-nav/*f*/, .block10-sgr-logos, .block11-content-nopic-pic, .block12-content-pic-pic-pic-pic-pic, .block13-static-info-dcs-cv-g-u-h, .block14-contacts-information-logos, .block15-contacts-information-before-footer-t-t-t-t, .block16-footer,
+    .block4-example2 p, .logo, .block4-example2, .block15-inner-static-info-t-t-t-t, .content64-nopic-pic, .content36-nopic-pic, .logos-social-icons, .block10-sgr-logos, .block1-contacts-information, .block2-logo-section, .block6-block6-logo-section2-contacts-information1-text-nav/*f*/, .block10-sgr-logos, .block11-content-nopic-pic, .block12-content-pic-pic-pic-pic-pic, .block13-static-info-dcs-cv-g-u-h, .block14-contacts-information-logos, .block15-contacts-information-before-footer-t-t-t-t, .block16-footer,
     .block11-block2-static-info/*f*/, .block11-title, .block11-logo, .inner-content36-nopic-pic, .content36-nopic-pic, .right-button, .block6-first-item, .block6-logo-section-contacts-information1-text-nav, .block4-example-2, .but-2 {
         float: none;
     }
@@ -1283,7 +1321,7 @@ font-size:12px /*размер иконки 12 пикселей в ширину �
     }
 }
 @media screen and (max-width: 995px){
-    .block1-contacts-information, .block2-logo-section, .block6-block6-logo-section2-contacts-information1-text-nav/*f*/, .block10-sgr-logos, .block11-content-nopic-pic, .block12-content-pic-pic-pic-pic-pic, .block13-static-info-dcs-cv-g-u-h, .block14-contacts-information-logos, .block15-contacts-information-before-footer-t-t-t-t, .block16-footer {
+    .block4-example2 p, .block1-contacts-information, .block2-logo-section, .block6-logo-section2-contacts-information1-text-nav/*f*/, .block10-sgr-logos, .block11-content-nopic-pic, .block12-content-pic-pic-pic-pic-pic, .block13-static-info-dcs-cv-g-u-h, .block14-contacts-information-logos, .block15-contacts-information-before-footer-t-t-t-t, .block16-footer {
     
         padding-right: 40px;
         padding-left: 40px;
@@ -1356,7 +1394,7 @@ font-size:12px /*размер иконки 12 пикселей в ширину �
     }
 }
 @media screen and (max-width: 390px) {
-    .block1-contacts-information, .block2-logo-section, .block6-block6-logo-section2-contacts-information1-text-nav/*f*/, .block10-sgr-logos, .block10-static-info-sgr, .block10-sgr-item, .block11-content-nopic-pic, .block12-content-pic-pic-pic-pic-pic, .block13-static-info-dcs-cv-g-u-h, .block14-contacts-information-logos, .block15-contacts-information-before-footer-t-t-t-t, .block16-footer {
+    .block4-example2 p, .block1-contacts-information, .block2-logo-section, .block6-block6-logo-section2-contacts-information1-text-nav/*f*/, .block10-sgr-logos, .block10-static-info-sgr, .block10-sgr-item, .block11-content-nopic-pic, .block12-content-pic-pic-pic-pic-pic, .block13-static-info-dcs-cv-g-u-h, .block14-contacts-information-logos, .block15-contacts-information-before-footer-t-t-t-t, .block16-footer {
         padding-right: 20px;
         padding-left: 20px;
     }
