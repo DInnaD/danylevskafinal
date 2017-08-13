@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" /><meta http-equiv="cache-control" content="no-cache" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="expires" content="-1" /><meta name="theme-color" content="#008641" /><link rel="alternate" hreflang="ru" href="https://tabletki.ua/list/" /><link rel="alternate" hreflang="uk" href="https://tabletki.ua/uk/list/" /><meta name="robots" content="index, follow" />
+    <link rel="icon" href="//i0.tabletki.ua/_assets/img/ico/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="//i0.tabletki.ua/_assets/img/ico/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="//i0.tabletki.ua/_assets/img/ico/favicon.ico" /><meta property="og:image" content="//i0.tabletki.ua/_assets/img/widget/logo.png" />
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-12587294-3');
+        ga('require', 'displayfeatures');
+        ga('set', 'dimension7', 'ru');ga('set', 'dimension8', 'STL1NUPG1');ga('set', 'dimension5', 'Полтава');
+        ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+        window.onerror = function (msg, url, line, col, error) {
+            var preventErrorAlert = false;
+            if (typeof error == 'undefined' || error == null || typeof error.stack == 'undefined' || error.stack == null) {
+                ga('send', 'event', 'JS Error', msg, navigator.userAgent + ' -> ' + url + " : empty-error-stack", 0, { 'nonInteraction': 1 });
+            }
+            else {
+                ga('send', 'event', 'JS Error', msg, navigator.userAgent + ' -> ' + url + " : " + error.stack, 0, { 'nonInteraction': 1 });
+            }
+            
+            return preventErrorAlert;
+        };
+    </script>
+    
+    <link href="//i0.tabletki.ua/_assets/css/min.css" rel="stylesheet">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//i0.tabletki.ua/_assets/css/additional/leaflet.ie.css" />
+    <![endif]-->
+    <script type="text/javascript">        (function (n, t) { "use strict"; function w() { } function u(n, t) { if (n) { typeof n == "object" && (n = [].slice.call(n)); for (var i = 0, r = n.length; i < r; i++) t.call(n, n[i], i) } } function it(n, i) { var r = Object.prototype.toString.call(i).slice(8, -1); return i !== t && i !== null && r === n } function s(n) { return it("Function", n) } function a(n) { return it("Array", n) } function et(n) { var i = n.split("/"), t = i[i.length - 1], r = t.indexOf("?"); return r !== -1 ? t.substring(0, r) : t } function f(n) { (n = n || w, n._done) || (n(), n._done = 1) } function ot(n, t, r, u) { var f = typeof n == "object" ? n : { test: n, success: !t ? !1 : a(t) ? t : [t], failure: !r ? !1 : a(r) ? r : [r], callback: u || w }, e = !!f.test; return e && !!f.success ? (f.success.push(f.callback), i.load.apply(null, f.success)) : e || !f.failure ? u() : (f.failure.push(f.callback), i.load.apply(null, f.failure)), i } function v(n) { var t = {}, i, r; if (typeof n == "object") for (i in n) !n[i] || (t = { name: i, url: n[i] }); else t = { name: et(n), url: n }; return (r = c[t.name], r && r.url === t.url) ? r : (c[t.name] = t, t) } function y(n) { n = n || c; for (var t in n) if (n.hasOwnProperty(t) && n[t].state !== l) return !1; return !0 } function st(n) { n.state = ft; u(n.onpreload, function (n) { n.call() }) } function ht(n) { n.state === t && (n.state = nt, n.onpreload = [], rt({ url: n.url, type: "cache" }, function () { st(n) })) } function ct() { var n = arguments, t = n[n.length - 1], r = [].slice.call(n, 1), f = r[0]; return (s(t) || (t = null), a(n[0])) ? (n[0].push(t), i.load.apply(null, n[0]), i) : (f ? (u(r, function (n) { s(n) || !n || ht(v(n)) }), b(v(n[0]), s(f) ? f : function () { i.load.apply(null, r) })) : b(v(n[0])), i) } function lt() { var n = arguments, t = n[n.length - 1], r = {}; return (s(t) || (t = null), a(n[0])) ? (n[0].push(t), i.load.apply(null, n[0]), i) : (u(n, function (n) { n !== t && (n = v(n), r[n.name] = n) }), u(n, function (n) { n !== t && (n = v(n), b(n, function () { y(r) && f(t) })) }), i) } function b(n, t) { if (t = t || w, n.state === l) { t(); return } if (n.state === tt) { i.ready(n.name, t); return } if (n.state === nt) { n.onpreload.push(function () { b(n, t) }); return } n.state = tt; rt(n, function () { n.state = l; t(); u(h[n.name], function (n) { f(n) }); o && y() && u(h.ALL, function (n) { f(n) }) }) } function at(n) { n = n || ""; var t = n.split("?")[0].split("."); return t[t.length - 1].toLowerCase() } function rt(t, i) { function e(t) { t = t || n.event; u.onload = u.onreadystatechange = u.onerror = null; i() } function o(f) { f = f || n.event; (f.type === "load" || /loaded|complete/.test(u.readyState) && (!r.documentMode || r.documentMode < 9)) && (n.clearTimeout(t.errorTimeout), n.clearTimeout(t.cssTimeout), u.onload = u.onreadystatechange = u.onerror = null, i()) } function s() { if (t.state !== l && t.cssRetries <= 20) { for (var i = 0, f = r.styleSheets.length; i < f; i++) if (r.styleSheets[i].href === u.href) { o({ type: "load" }); return } t.cssRetries++; t.cssTimeout = n.setTimeout(s, 250) } } var u, h, f; i = i || w; h = at(t.url); h === "css" ? (u = r.createElement("link"), u.type = "text/" + (t.type || "css"), u.rel = "stylesheet", u.href = t.url, t.cssRetries = 0, t.cssTimeout = n.setTimeout(s, 500)) : (u = r.createElement("script"), u.type = "text/" + (t.type || "javascript"), u.src = t.url); u.onload = u.onreadystatechange = o; u.onerror = e; u.async = !1; u.defer = !1; t.errorTimeout = n.setTimeout(function () { e({ type: "timeout" }) }, 7e3); f = r.head || r.getElementsByTagName("head")[0]; f.insertBefore(u, f.lastChild) } function vt() { for (var t, u = r.getElementsByTagName("script"), n = 0, f = u.length; n < f; n++) if (t = u[n].getAttribute("data-headjs-load"), !!t) { i.load(t); return } } function yt(n, t) { var v, p, e; return n === r ? (o ? f(t) : d.push(t), i) : (s(n) && (t = n, n = "ALL"), a(n)) ? (v = {}, u(n, function (n) { v[n] = c[n]; i.ready(n, function () { y(v) && f(t) }) }), i) : typeof n != "string" || !s(t) ? i : (p = c[n], p && p.state === l || n === "ALL" && y() && o) ? (f(t), i) : (e = h[n], e ? e.push(t) : e = h[n] = [t], i) } function e() { if (!r.body) { n.clearTimeout(i.readyTimeout); i.readyTimeout = n.setTimeout(e, 50); return } o || (o = !0, vt(), u(d, function (n) { f(n) })) } function k() { r.addEventListener ? (r.removeEventListener("DOMContentLoaded", k, !1), e()) : r.readyState === "complete" && (r.detachEvent("onreadystatechange", k), e()) } var r = n.document, d = [], h = {}, c = {}, ut = "async" in r.createElement("script") || "MozAppearance" in r.documentElement.style || n.opera, o, g = n.head_conf && n.head_conf.head || "head", i = n[g] = n[g] || function () { i.ready.apply(null, arguments) }, nt = 1, ft = 2, tt = 3, l = 4, p; if (r.readyState === "complete") e(); else if (r.addEventListener) r.addEventListener("DOMContentLoaded", k, !1), n.addEventListener("load", e, !1); else { r.attachEvent("onreadystatechange", k); n.attachEvent("onload", e); p = !1; try { p = !n.frameElement && r.documentElement } catch (wt) { } p && p.doScroll && function pt() { if (!o) { try { p.doScroll("left") } catch (t) { n.clearTimeout(i.readyTimeout); i.readyTimeout = n.setTimeout(pt, 50); return } e() } } () } i.load = i.js = ut ? lt : ct; i.test = ot; i.ready = yt; i.ready(r, function () { y() && u(h.ALL, function (n) { f(n) }); i.feature && i.feature("domloaded", !0) }) })(window);</script>
+<title>
+	Лекарственный справочник - алфавитный указатель, справочник лекарств | Tabletki.ua
+</title><meta name="description" content="Поиск лекарств по алфавиту. Список медикаментов на сайте Tabletki.ua" /><meta name="keywords" content="Поиск лекарств, алфавитный указатель, список медикаментов" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="/list/" id="aspnetForm" data-form="main">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5MjgwNzc2MDBkZCt3cYVC4fDLBpPGrY3Gb5u+MldX/DwW39gJse/5t0dS" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A02EF0F3" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAWv/YXtRWauckb03G4Zv/tQ/vif5kIFGU6VxLZ9iUfwfgn1IlPfz1FCiTNN1gd8TPawQ7XxvIhhHukZz3i53ynw4okNcxGLIR0GA/799zSfZ9rqZgIp4nASeseVTLqn/t1oVve/QETjnwVpDAwmT2/K" />
+</div>
+        <div id="body-container">
+            <div id="page-container">
+                <div id="top-banner-panel">
+                    <div id="top-banner">
+                        <div id="ctl00_ctl00_TopAdsPanel_TopPanel" style="z-index: 99999; min-height: 90px;
+    overflow: hidden;">
+    <div class="adunit" id="DESKTOP_Top_Banner" data-dimensions="1x3" style="display: none; height:0;">
+    </div>
+    <div id="top_banner_container">
+    </div>
+</div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="branding">
+                    <div id="main-container">
+                        
+<div id="menubar">
+    <a class="tabletki-brand" href="//tabletki.ua/" title="Tabletki.ua - поиск лекарств в аптеках, инструкции по применению"></a>
+    
+<div id="search-panel">
+    <div class="tokenfield">
+        <input name="ctl00$ctl00$HeaderPanel$QueryPanel$QueryCtrl" type="text" id="ctl00_ctl00_HeaderPanel_QueryPanel_QueryCtrl" class="token-input" autocomplete="off" tabindex="0" data-type="input" placeholder="Введите название препарата" />
+    </div>
+    <a id="ctl00_ctl00_HeaderPanel_QueryPanel_SubmitLink" class="search-btn" href="javascript:__doPostBack(&#39;ctl00$ctl00$HeaderPanel$QueryPanel$SubmitLink&#39;,&#39;&#39;)">
+        <i class="fa fa-search"></i>
+    </a>
+    
+    <span id="search-clear-btn"></span>
+    <button onclick="__doPostBack('ctl00$ctl00$HeaderPanel$QueryPanel$SubmitButton','')" id="ctl00_ctl00_HeaderPanel_QueryPanel_SubmitButton" class="hide" data-type="submit">
+    </button>
+    <span id="typeahead-menu" style="display: none;"></span>
+    <input name="ctl00$ctl00$HeaderPanel$QueryPanel$DataCtrl" type="hidden" id="ctl00_ctl00_HeaderPanel_QueryPanel_DataCtrl" />
+</div>
+<div id="ctl00_ctl00_HeaderPanel_QueryPanel_ControlsPanel" class="search-control-panel">
+    <div style="display: inline-block; float: left; padding: 10px;">
+        
+        
+<div id="cart-control">
+    <a href="//tabletki.ua/reserve/" title="Резервирование лекарств в аптеке" class="btn btn-default" style="position: relative;" rel="nofollow"><i class="fa fa-shopping-cart" style="margin-right:5px;"></i>Корзина</a>
+</div>
+
+        
+    </div>
+    <div style="display: inline-block; position: absolute; right: 10px; padding: 10px 0 10px 0;">
+        <div class="lang-panel">
+            <a class="active" href="javascript:$.cookie('tabletki.lang','ru', { path: '/', expires: 180 }); window.location.href = '//tabletki.ua/list/'">РУС</a>
+            <a href="javascript:$.cookie('tabletki.lang','uk', { path: '/', expires: 180 }); window.location.href = '//tabletki.ua/uk/list/'">УКР</a>
+        </div>
+        <div style="display: inline-block;">
+            
+<div id="ctl00_ctl00_HeaderPanel_QueryPanel_UserPanel_LoginUserPanel" class="user-panel">
+    <a href="//tabletki.ua/cabinet/" class="btn btn-default" rel="nofollow" title="Вход в мой кабинет"><i class="fa fa-user"></i>&nbsp;Мой кабинет</a>
+</div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    head.ready('full', function () {
+        $.querypanel('ctl00_ctl00_HeaderPanel_QueryPanel_QueryCtrl');
+    });
+</script>
+
+</div>
+
+                        
+                        <div class="content-container">
+                            
+    <div id="search-advanced-panel" class="tabbable tabs-left">
+        <ul class="nav nav-tabs" style="width:320px;">
+            <li class="active"><a href="//tabletki.ua/list/">Поиск препаратов по алфавиту</a></li><li><a href="//tabletki.ua/producer/">по производителю</a></li><li><a href="//tabletki.ua/inn/">по международному названию (МНН)</a></li><li><a href="//tabletki.ua/atc/">по АТХ-классификации</a></li><li><a href="//tabletki.ua/pharmagroup/">по фармакотерапевтической группе</a></li><li><a href="//tabletki.ua/substance/">по действующему веществу</a></li>
+            <div class="pull-left" style="width:300px; margin-top:20px;">
+                
+
+<div id="ctl00_ctl00_MAIN_ContentPlaceHolder_AdsPanel_PremiumPanel" style="z-index: 99999;">
+    <div class="adunit" id="DESKTOP_Premium_Banner" data-dimensions="1x2" style="display: none;">
+    </div>
+    <div id="premium_banner_container">
+    </div>
+</div>
+
+
+                
+<div class="top-news-panel ads-fixed-panel">
+    
+            <h3>
+                Новинки
+            </h3>
+        
+            <div class="informer-block-small informer-block-info">
+                <img width="60" height="60" src="//i3.tabletki.ua/Informers/inf36.png" />
+                <div class="informer-block-small-body">
+                    <span class="informer-block-small-title">
+                        Вагинальные инфекции?
+                    </span><span class="informer-block-small-text">
+                        Комплексный подход к лечению
+                    </span><a target="_blank" rel="nofollow" href="http://pubads.g.doubleclick.net/gampad/clk?id=4373326506&iu=/3781086/ClickTracking" class="btn btn-default btn-sm informer-block-small-btn">
+                        Подробней
+                    </a>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="informer-block-small informer-block-info">
+                <img width="60" height="60" src="//i3.tabletki.ua/Informers/inf34.png" />
+                <div class="informer-block-small-body">
+                    <span class="informer-block-small-title">
+                        Молочница?
+                    </span><span class="informer-block-small-text">
+                        Начни лечение вовремя и выздоровей скорее!
+                    </span><a target="_blank" rel="nofollow" href="http://pubads.g.doubleclick.net/gampad/clk?id=4354928801&iu=/3781086/ClickTracking" class="btn btn-default btn-sm informer-block-small-btn">
+                        Подробней
+                    </a>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="informer-block-small informer-block-info">
+                <img width="60" height="60" src="//i3.tabletki.ua/Informers/inf12.jpg" />
+                <div class="informer-block-small-body">
+                    <span class="informer-block-small-title">
+                        Срочное предупреждение беременности
+                    </span><span class="informer-block-small-text">
+                        после полового акта
+                    </span><a target="_blank" rel="nofollow" href="http://pubads.g.doubleclick.net/gampad/clk?id=55671326&iu=/3781086/ClickTracking" class="btn btn-default btn-sm informer-block-small-btn">
+                        Подробней
+                    </a>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="informer-block-small informer-block-info">
+                <img width="60" height="60" src="//i3.tabletki.ua/Informers/inf11.png" />
+                <div class="informer-block-small-body">
+                    <span class="informer-block-small-title">
+                        Беспокоит
+                    </span><span class="informer-block-small-text">
+                        ГЕМОРРОЙ?
+                    </span><a target="_blank" rel="nofollow" href="http://pubads.g.doubleclick.net/gampad/clk?id=4374908774&iu=/3781086/ClickTracking" class="btn btn-default btn-sm informer-block-small-btn">
+                        Подробней
+                    </a>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+        
+        
+    
+    <a href="javascript:void(0);" class="close-link" id="hide-informer-link">Скрыть рекламу</a>
+</div>
+
+                
+
+
+<div id="ctl00_ctl00_MAIN_ContentPlaceHolder_PremiumAdsPanel_Premium2Panel" style="z-index: 99999;">
+    <div class="adunit" id="DESKTOP_Premium2_Banner" data-dimensions="300x250" style="display: none;
+        margin-bottom: 20px;">
+    </div>
+</div>
+
+            </div>
+        </ul>
+        <div style="width: 690px;" class="pull-right">
+            
+    
+            <ol class="breadcrumbs-panel">
+                
+<li><a href="//tabletki.ua/list/" title="Поиск лекарств по алфавиту">Поиск лекарств по алфавиту</a></li>
+<li>Популярные</li>
+            </ol>
+    <h1>
+        Поиск лекарств по алфавиту</h1>
+    <div id="ctl00_ctl00_MAIN_ContentPlaceHolder_MAIN_ContentPlaceHolder_AlphabetPanel">
+        <div class="alphabet-line">
+            <div style="float: left; width: 130px;">
+                <ul>
+                    <li class="active"><a href="//tabletki.ua/list/" title="Популярные медикаменты">
+                        Популярные</a> </li>
+                </ul>
+            </div>
+            <div style="float: right; width:560px">
+                <ul>
+                    
+                            <li class=""><a title="Лекарства на 1"
+                                href="//tabletki.ua/list/?q=1">
+                                1</a> </li>
+                        
+                            <li class=""><a title="Лекарства на 2"
+                                href="//tabletki.ua/list/?q=2">
+                                2</a> </li>
+                        
+                            <li class=""><a title="Лекарства на 3"
+                                href="//tabletki.ua/list/?q=3">
+                                3</a> </li>
+                        
+                            <li class=""><a title="Лекарства на 5"
+                                href="//tabletki.ua/list/?q=5">
+                                5</a> </li>
+                        
+                            <li class=""><a title="Лекарства на 8"
+                                href="//tabletki.ua/list/?q=8">
+                                8</a> </li>
+                        
+                            <li class=""><a title="Лекарства на 9"
+                                href="//tabletki.ua/list/?q=9">
+                                9</a> </li>
+                        
+                            <li class=""><a title="Лекарства на A"
+                                href="//tabletki.ua/list/?q=a">
+                                A</a> </li>
+                        
+                            <li class=""><a title="Лекарства на B"
+                                href="//tabletki.ua/list/?q=b">
+                                B</a> </li>
+                        
+                            <li class=""><a title="Лекарства на C"
+                                href="//tabletki.ua/list/?q=c">
+                                C</a> </li>
+                        
+                            <li class=""><a title="Лекарства на D"
+                                href="//tabletki.ua/list/?q=d">
+                                D</a> </li>
+                        
+                            <li class=""><a title="Лекарства на E"
+                                href="//tabletki.ua/list/?q=e">
+                                E</a> </li>
+                        
+                            <li class=""><a title="Лекарства на F"
+                                href="//tabletki.ua/list/?q=f">
+                                F</a> </li>
+                        
+                            <li class=""><a title="Лекарства на G"
+                                href="//tabletki.ua/list/?q=g">
+                                G</a> </li>
+                        
+                            <li class=""><a title="Лекарства на H"
+                                href="//tabletki.ua/list/?q=h">
+                                H</a> </li>
+                        
+                            <li class=""><a title="Лекарства на I"
+                                href="//tabletki.ua/list/?q=i">
+                                I</a> </li>
+                        
+                            <li class=""><a title="Лекарства на J"
+                                href="//tabletki.ua/list/?q=j">
+                                J</a> </li>
+                        
+                            <li class=""><a title="Лекарства на K"
+                                href="//tabletki.ua/list/?q=k">
+                                K</a> </li>
+                        
+                            <li class=""><a title="Лекарства на L"
+                                href="//tabletki.ua/list/?q=l">
+                                L</a> </li>
+                        
+                            <li class=""><a title="Лекарства на M"
+                                href="//tabletki.ua/list/?q=m">
+                                M</a> </li>
+                        
+                            <li class=""><a title="Лекарства на N"
+                                href="//tabletki.ua/list/?q=n">
+                                N</a> </li>
+                        
+                            <li class=""><a title="Лекарства на O"
+                                href="//tabletki.ua/list/?q=o">
+                                O</a> </li>
+                        
+                            <li class=""><a title="Лекарства на P"
+                                href="//tabletki.ua/list/?q=p">
+                                P</a> </li>
+                        
+                            <li class=""><a title="Лекарства на R"
+                                href="//tabletki.ua/list/?q=r">
+                                R</a> </li>
+                        
+                            <li class=""><a title="Лекарства на S"
+                                href="//tabletki.ua/list/?q=s">
+                                S</a> </li>
+                        
+                            <li class=""><a title="Лекарства на T"
+                                href="//tabletki.ua/list/?q=t">
+                                T</a> </li>
+                        
+                            <li class=""><a title="Лекарства на U"
+                                href="//tabletki.ua/list/?q=u">
+                                U</a> </li>
+                        
+                            <li class=""><a title="Лекарства на V"
+                                href="//tabletki.ua/list/?q=v">
+                                V</a> </li>
+                        
+                            <li class=""><a title="Лекарства на W"
+                                href="//tabletki.ua/list/?q=w">
+                                W</a> </li>
+                        
+                            <li class=""><a title="Лекарства на X"
+                                href="//tabletki.ua/list/?q=x">
+                                X</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Y"
+                                href="//tabletki.ua/list/?q=y">
+                                Y</a> </li>
+                        
+                            <li class=""><a title="Лекарства на А"
+                                href="//tabletki.ua/list/?q=%d0%b0">
+                                А</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Б"
+                                href="//tabletki.ua/list/?q=%d0%b1">
+                                Б</a> </li>
+                        
+                            <li class=""><a title="Лекарства на В"
+                                href="//tabletki.ua/list/?q=%d0%b2">
+                                В</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Г"
+                                href="//tabletki.ua/list/?q=%d0%b3">
+                                Г</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Д"
+                                href="//tabletki.ua/list/?q=%d0%b4">
+                                Д</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Е"
+                                href="//tabletki.ua/list/?q=%d0%b5">
+                                Е</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Ж"
+                                href="//tabletki.ua/list/?q=%d0%b6">
+                                Ж</a> </li>
+                        
+                            <li class=""><a title="Лекарства на З"
+                                href="//tabletki.ua/list/?q=%d0%b7">
+                                З</a> </li>
+                        
+                            <li class=""><a title="Лекарства на И"
+                                href="//tabletki.ua/list/?q=%d0%b8">
+                                И</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Й"
+                                href="//tabletki.ua/list/?q=%d0%b9">
+                                Й</a> </li>
+                        
+                            <li class=""><a title="Лекарства на К"
+                                href="//tabletki.ua/list/?q=%d0%ba">
+                                К</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Л"
+                                href="//tabletki.ua/list/?q=%d0%bb">
+                                Л</a> </li>
+                        
+                            <li class=""><a title="Лекарства на М"
+                                href="//tabletki.ua/list/?q=%d0%bc">
+                                М</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Н"
+                                href="//tabletki.ua/list/?q=%d0%bd">
+                                Н</a> </li>
+                        
+                            <li class=""><a title="Лекарства на О"
+                                href="//tabletki.ua/list/?q=%d0%be">
+                                О</a> </li>
+                        
+                            <li class=""><a title="Лекарства на П"
+                                href="//tabletki.ua/list/?q=%d0%bf">
+                                П</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Р"
+                                href="//tabletki.ua/list/?q=%d1%80">
+                                Р</a> </li>
+                        
+                            <li class=""><a title="Лекарства на С"
+                                href="//tabletki.ua/list/?q=%d1%81">
+                                С</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Т"
+                                href="//tabletki.ua/list/?q=%d1%82">
+                                Т</a> </li>
+                        
+                            <li class=""><a title="Лекарства на У"
+                                href="//tabletki.ua/list/?q=%d1%83">
+                                У</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Ф"
+                                href="//tabletki.ua/list/?q=%d1%84">
+                                Ф</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Х"
+                                href="//tabletki.ua/list/?q=%d1%85">
+                                Х</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Ц"
+                                href="//tabletki.ua/list/?q=%d1%86">
+                                Ц</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Ч"
+                                href="//tabletki.ua/list/?q=%d1%87">
+                                Ч</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Ш"
+                                href="//tabletki.ua/list/?q=%d1%88">
+                                Ш</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Щ"
+                                href="//tabletki.ua/list/?q=%d1%89">
+                                Щ</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Э"
+                                href="//tabletki.ua/list/?q=%d1%8d">
+                                Э</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Ю"
+                                href="//tabletki.ua/list/?q=%d1%8e">
+                                Ю</a> </li>
+                        
+                            <li class=""><a title="Лекарства на Я"
+                                href="//tabletki.ua/list/?q=%d1%8f">
+                                Я</a> </li>
+                        
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div>
+            
+                    <ul>
+                
+                    </ul>
+                
+        </div>
+    </div>
+    <div id="ctl00_ctl00_MAIN_ContentPlaceHolder_MAIN_ContentPlaceHolder_ClassGoodsPanel_GoodsListPanel">
+    
+            <div>
+                <a title="Биоран Рапид" href="//tabletki.ua/Биоран-рапид/">
+                    Биоран Рапид</a>
+            </div>
+        
+            <div>
+                <a title="Бифиформ" href="//tabletki.ua/Бифиформ/">
+                    Бифиформ</a>
+            </div>
+        
+            <div>
+                <a title="Гидазепам IC" href="//tabletki.ua/Гидазепам-ic/">
+                    Гидазепам IC</a>
+            </div>
+        
+            <div>
+                <a title="Детралекс" href="//tabletki.ua/Детралекс/">
+                    Детралекс</a>
+            </div>
+        
+            <div>
+                <a title="Дипроспан" href="//tabletki.ua/Дипроспан/">
+                    Дипроспан</a>
+            </div>
+        
+            <div>
+                <a title="Инфакол" href="//tabletki.ua/Инфакол/">
+                    Инфакол</a>
+            </div>
+        
+            <div>
+                <a title="Инфанрикс" href="//tabletki.ua/Инфанрикс/">
+                    Инфанрикс</a>
+            </div>
+        
+            <div>
+                <a title="Неотризол" href="//tabletki.ua/Неотризол/">
+                    Неотризол</a>
+            </div>
+        
+            <div>
+                <a title="Нефрофит" href="//tabletki.ua/Нефрофит/">
+                    Нефрофит</a>
+            </div>
+        
+            <div>
+                <a title="Нимесил" href="//tabletki.ua/Нимесил/">
+                    Нимесил</a>
+            </div>
+        
+            <div>
+                <a title="Нуклео Цмф Форте" href="//tabletki.ua/Нуклео-цмф-форте/">
+                    Нуклео Цмф Форте</a>
+            </div>
+        
+            <div>
+                <a title="Омез" href="//tabletki.ua/Омез/">
+                    Омез</a>
+            </div>
+        
+            <div>
+                <a title="Омепразол" href="//tabletki.ua/Омепразол/">
+                    Омепразол</a>
+            </div>
+        
+            <div>
+                <a title="Оптикс" href="//tabletki.ua/Оптикс/">
+                    Оптикс</a>
+            </div>
+        
+            <div>
+                <a title="Терафлекс" href="//tabletki.ua/Терафлекс/">
+                    Терафлекс</a>
+            </div>
+        
+            <div>
+                <a title="Тиотриазолин" href="//tabletki.ua/Тиотриазолин/">
+                    Тиотриазолин</a>
+            </div>
+        
+            <div>
+                <a title="Тризипин Лонг" href="//tabletki.ua/Тризипин-лонг/">
+                    Тризипин Лонг</a>
+            </div>
+        
+            <div>
+                <a title="Уролесан" href="//tabletki.ua/Уролесан/">
+                    Уролесан</a>
+            </div>
+        
+            <div>
+                <a title="Фармацитрон" href="//tabletki.ua/Фармацитрон/">
+                    Фармацитрон</a>
+            </div>
+        
+            <div>
+                <a title="Эссенциале Форте Н" href="//tabletki.ua/Эссенциале-форте-н/">
+                    Эссенциале Форте Н</a>
+            </div>
+        
+</div>
+
+
+        </div>
+        <div class="clearfix">
+        </div>
+    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<div id="footer">
+    <noindex>
+    <div id="footer-container">
+        <div class="self-medication">
+            Самолечение может быть опасным для вашего здоровья
+        </div>
+        <div class="pull-left" style="width: 280px; margin-right: 20px;">
+            <div class="header">
+                Пользователям
+            </div>
+            <div>
+                <a href="javascript:getMobileVesion();" title="Мобильная версия сайта">
+                    <i style="font-size:14px;" class="fa fa-mobile"></i>&nbsp;Мобильная версия</a>
+                    </div>
+            <div>
+                <a href="//tabletki.ua/news/" title="Новинки">
+                    Новости</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/list/" title="Новинки">
+                    Расширенный поиск</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/feedback/" title="Обратная связь">
+                    Обратная связь</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/agreement/" title="Соглашение о конфиденциальности">
+                    Соглашение о конфиденциальности</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/term/" title="Условия использования сайта">
+                    Условия использования сайта</a>
+            </div>
+            
+<div class="btn-group dropup">
+    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Алфавитный указатель
+    </a>
+    <ul class="dropdown-menu">
+        <li><a href="//tabletki.ua/list/?q=%d0%b0" title="Лекарства на А">А</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b1" title="Лекарства на Б">Б</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b2" title="Лекарства на В">В</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b3" title="Лекарства на Г">Г</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b4" title="Лекарства на Д">Д</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b5+%2f+%d1%94+%2f+%d1%8d" title="Лекарства на Е / Є / Э">Е / Є / Э</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b6" title="Лекарства на Ж">Ж</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b7" title="Лекарства на З">З</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%b8+%2f+%d1%96+%2f+%d0%b9" title="Лекарства на И / І / Й">И / І / Й</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%ba" title="Лекарства на К">К</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%bb" title="Лекарства на Л">Л</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%bc" title="Лекарства на М">М</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%bd" title="Лекарства на Н">Н</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%be" title="Лекарства на О">О</a></li>
+<li><a href="//tabletki.ua/list/?q=%d0%bf" title="Лекарства на П">П</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%80" title="Лекарства на Р">Р</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%81" title="Лекарства на С">С</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%82" title="Лекарства на Т">Т</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%83" title="Лекарства на У">У</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%84" title="Лекарства на Ф">Ф</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%85" title="Лекарства на Х">Х</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%86" title="Лекарства на Ц">Ц</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%87" title="Лекарства на Ч">Ч</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%88" title="Лекарства на Ш">Ш</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%8e" title="Лекарства на Ю">Ю</a></li>
+<li><a href="//tabletki.ua/list/?q=%d1%8f" title="Лекарства на Я">Я</a></li>
+<li><a href="//tabletki.ua/list/?q=a-z" title="Лекарства на A-Z">A-Z</a></li>
+<li><a href="//tabletki.ua/list/?q=0-9" title="Лекарства на 0-9">0-9</a></li>
+
+    </ul>
+</div>
+            <div>
+                Язык интерфейса:
+                <a href="javascript:$.cookie('tabletki.lang','ru', { path: '/', expires: 180 }); window.location.href = '//tabletki.ua/list/'"><b>Русский</b></a>
+                <a href="javascript:$.cookie('tabletki.lang','uk', { path: '/', expires: 180 }); window.location.href = '//tabletki.ua/uk/list/'">Українська</a>
+            </div>
+        </div>
+        <div class="pull-left" style="width: 240px; margin-right: 20px;">
+            <div class="header">
+                Специалистам
+            </div>
+            <div>
+                <a href="//tabletki.ua/pharmacist/" title="Специализированная фармацевтическая информация">
+                    Лицензии на медикаменты</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/pharmacist/defectivelotgoods/" title="Список бракованных серий лекарственных средств">
+                    Бракованные серии</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/pharmacist/1000/" title="Приказ №1000: список лекарственных средств">
+                    Приказ №1000</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/pharmacist/333/" title="Приказ №333: список лекарственных средств">
+                    Приказ №333</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/pharmacist/419/" title="Приказ №419: список лекарственных средств">
+                    Приказ №419</a>
+            </div>
+            <div>
+                <a href="//tabletki.ua/pharmacist/360/" title="Приказ №360: список лекарственных средств">
+                    Приказ №360</a>
+            </div>
+        </div>
+        <div class="pull-left" style="width: 240px; margin-right: 20px;">
+            <div class="header">
+                Аптекам
+            </div>
+            <div>
+                <a href="//tabletki.ua/partner/" title="Размещение аптеки на сайте Tabletki.ua">
+                    Разместить аптеку</a>
+            </div>
+            <div>
+                <a href="https://cabinet.tabletki.ua/" title="Личный кабинет аптеки">
+                    Вход в личный кабинет</a>
+            </div>
+        </div>
+        <div class="pull-left" style="width: 210px;">
+            <div class="header">
+                Реклама
+            </div>
+            <div>
+                <a href="//tabletki.ua/ads/" title="Размещение рекламы на сайте Tabletki.ua">
+                    Реклама на сайте</a>
+            </div>
+            <!--bigmir)net TOP 100-->
+            <script type="text/javascript">
+                function BM_Draw(oBM_STAT) { }
+                (function (d, w) {
+                    bmN = navigator, d.cookie = 'b=b', i = 0, bs = [], bm = { o: 1, v: 16889125, s: 16889125, t: 0, c: d.cookie ? 1 : 0, n: Math.round((Math.random() * 1000000)), w: 0 };
+                    for (var f = self; f != f.parent; f = f.parent) bm.w++;
+                    try { bm.y = bmN.javaEnabled() ? 1 : 0 } catch (e) { ; }
+                    try { bmS = screen; bm.v ^= bm.d = bmS.colorDepth || bmS.pixelDepth; bm.v ^= bm.r = bmS.width } catch (e) { ; }
+                    r = d.referrer.replace(/^w+:\/\//, ''); if (r && r.split('/')[0] != w.location.host) { bm.f = escape(r).slice(0, 400); bm.v ^= r.length }
+                    bm.v ^= w.location.href.length; for (var x in bm) if (/^[ovstcnwmydrf]$/.test(x)) bs[i++] = x + bm[x];
+                    
+                    var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                    s.type = "text/javascript";
+                    s.async = true;
+                    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//c.bigmir.net/?" + bs.join('&');
+                    if (w.opera == "[object Opera]") {
+                        d.addEventListener("DOMContentLoaded", f, false);
+                    } else { f(); }
+                })(document, window);
+            </script>
+            <noscript>
+                <img src="//c.bigmir.net/?v16889125&s16889125&t6"
+                    width="0" height="0" alt="" title="" border="0" /></noscript>
+            <!--bigmir)net TOP 100-->
+            <div>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.tabletkiua.tabletki&utm_source=tabletki.ua" title="Скачать приложение в Google play">
+                    <img width="105" src="//i0.tabletki.ua/_assets/img/app/google_play_small.png" /></a>
+            </div>
+            <div style="margin-top:5px;">
+                <img width="105" src="//i0.tabletki.ua/_assets/img/ico/visicom-logo.png" />
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div style="margin: 20px 0;">
+            <div>
+                Сайт является специализированным Интернет-изданием, предназначенным для врачей и других профессиональных медицинских работников
+            </div>
+            <div>
+                Copyright © 2010-2017 ООО «Ассоциация независимых разработчиков»
+            </div>
+        </div>
+    </div>
+    </noindex>
+</div>
+
+            <div class="cd-overlay">
+            </div>
+            <a href="#0" id="cd-top">Top</a>
+        </div>
+        
+<i id="loading-panel" class="fa fa-circle-o-notch fa-spin"></i>
+        <div class="cd-overlay">
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+var __DOMAIN = '//tabletki.ua';
+var __RESOURCESDOMAIN = '//i0.tabletki.ua';
+var __QUERYPARAMS = '';
+var __QUERYPARAMS2 = '';
+var __IPTOWN = {id: 'STL1NUPG1', ll: [49.59269, 34.55116], bounds: [[49.55473, 34.48182], [49.60527, 34.58544]]};
+var __PAGETYPE = 'Pharmacy';
+var __GOODSCODE = '0';
+var __TILELAYERURL = '//tms{s}.visicom.ua/2.0.0/planet3/base_ru/{z}/{x}/{y}.png';
+var __TA_options = {"TA_key_ATC":[],"TA_key_Language":"ru","TA_key_ID_Town":"STL1NUPG1","TA_key_ID_User":"66e0ef84-482b-46e6-9f39-e7d5b71e67a8","TA_key_Platform":"desktop","TA_key_Goods":"","TA_key_ClassName":"","TA_key_Version":"release"};
+
+var __COOKIEREGION = 'tabletki.region';
+var __COOKIEUSERADDRESS = 'tabletki.useraddress';
+var __COOKIEUSERCOORDINATE = 'tabletki.usercoordinate';
+var __COOKIEMOBILEORDESKTOPVERSION = 'tabletki.mobileordesktopversion';
+var __COOKIEUSERGEOLOCATIONEXISTS = 'tabletki.usergeolocationexists';
+var __COOKIEREGIONSETUSERADDRESS = 'tabletki.regionsetuseraddress';
+//]]>
+</script>
+</form>
+    <script type="text/javascript">
+        var __DFPTargeting = {};
+
+        function SearchBtn_OnMouseUp(type) {
+            __doPostBack('ctl00$ctl00','submit');
+        }
+        
+        function downloadJSAtOnload() {
+            head.js(
+                '//i0.tabletki.ua/_assets/scripts/min.js',
+                function() {
+                    head.js(
+                        {full: '//i0.tabletki.ua/_assets/scripts/additional/app.js'}
+                    );
+                }
+            );
+            }
+        
+            if (window.addEventListener)
+                window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+                window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+
+            head.ready('full', function() {
+                ga('send', 'event', 'Action', 'Load Full: Desktop', 0, 0, { 'nonInteraction': 1 });
+
+                if (window.performance && window.performance.now) {
+                    var timeSincePageLoad = Math.round(window.performance.now());
+                    ga('send', 'timing', 'Load Full: Desktop', 'load', timeSincePageLoad);
+                }
+
+                if (typeof (UpdateHtmlAttributes) == "function") {
+                    UpdateHtmlAttributes();
+                }
+
+                $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
+            });
+    </script>
+    <div id="ctl00_ctl00_AdsScriptPanel_DFPPanel">
+    <script type="text/javascript">
+        head.ready('full', function () {
+            ga('send', 'event', 'Action', 'Load AdsScriptPanel: Desktop', 0, 0, { 'nonInteraction': 1 });
+
+            if (window.performance && window.performance.now) {
+                var timeSincePageLoad = Math.round(window.performance.now());
+                ga('send', 'timing', 'Load AdsScriptPanel: Desktop', 'load', timeSincePageLoad);
+            }
+
+            var scriptDfp = document.createElement('script');
+            scriptDfp.type = 'text/javascript';
+            scriptDfp.src = '//i0.tabletki.ua/_assets/scripts/additional/jquery.dfp.min.js';
+            document.body.appendChild(scriptDfp);
+        });
+    </script>
+</div>
+
+
+
+    <!-- (C)2000-2015 Gemius SA - gemiusAudience / tabletki.ua / Glavnaja stranitsa sajta -->
+    <script type="text/javascript">
+    <!--        //--><![CDATA[//><!--
+    var pp_gemius_identifier = 'zaCV9KMMSRwQxUn7MqkvcvWoXmcdnwefJ_YniBLSIjX.n7';
+    // lines below shouldn't be edited
+    function gemius_pending(i) { window[i] = window[i] || function () { var x = window[i + '_pdata'] = window[i + '_pdata'] || []; x[x.length] = arguments; }; };
+    gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+    (function (d, t) {
+        try {
+            var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's' : ''); gt.setAttribute('async', 'async');
+            gt.setAttribute('defer', 'defer'); gt.src = l + '://gaua.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt, s);
+        } catch (e) { }
+    })(document, 'script');
+    //--><!]]>
+    </script>
+</body>
+</html>
