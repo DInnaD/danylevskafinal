@@ -1,0 +1,681 @@
+<!DOCTYPE html><html
+lang="en-GB" prefix="og: http://ogp.me/ns#"><head><link
+rel="stylesheet" type="text/css" href="http://thenorthernfoundry.com/wp-content/cache/minify/57ca8.css" media="all" /><meta
+charset="UTF-8"/><meta
+name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/><link
+rel="pingback" href="http://thenorthernfoundry.com/xmlrpc.php"/><link
+rel="shortcut icon" href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/16x16.png" /><link
+rel="apple-touch-icon-precomposed" sizes="144x144"
+href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/144x144.png"/><link
+rel="apple-touch-icon-precomposed" sizes="114x114"
+href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/114x114.png"/><link
+rel="apple-touch-icon-precomposed" sizes="72x72"
+href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/72x72.png"/><link
+rel="apple-touch-icon-precomposed" sizes="57x57"
+href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/57x57.png"/><title>Slick Slider with Instagram Feed | The Northern Foundry</title> <script>/*<![CDATA[*/function spbImageResizer_writeCookie(){the_cookie=document.cookie,the_cookie&&window.devicePixelRatio>=2&&(the_cookie="spb_image_resizer_pixel_ratio="+window.devicePixelRatio+";"+the_cookie,document.cookie=the_cookie)}spbImageResizer_writeCookie();/*]]>*/</script> <script>/*<![CDATA[*/function sf_writeCookie(){the_cookie=document.cookie,the_cookie&&window.devicePixelRatio>=2&&(the_cookie="sf_pixel_ratio="+window.devicePixelRatio+";"+the_cookie,document.cookie=the_cookie)}sf_writeCookie();/*]]>*/</script> <meta
+name="description" content="This is a very simple and flexible way of getting Ken Wheelers Slick Slider and Instafeed jQuery working together in perfect harmony."/><meta
+name="robots" content="noodp"/><link
+rel="canonical" href="http://thenorthernfoundry.com/slick-slider-with-instagram-feed/" /><meta
+property="og:locale" content="en_GB" /><meta
+property="og:type" content="article" /><meta
+property="og:title" content="Slick Slider with Instagram Feed | The Northern Foundry" /><meta
+property="og:description" content="This is a very simple and flexible way of getting Ken Wheelers Slick Slider and Instafeed jQuery working together in perfect harmony." /><meta
+property="og:url" content="http://thenorthernfoundry.com/slick-slider-with-instagram-feed/" /><meta
+property="og:site_name" content="The Northern Foundry" /><meta
+property="article:section" content="Tutorials" /><meta
+property="article:published_time" content="2015-08-14T14:00:45+01:00" /><meta
+name="twitter:card" content="summary" /><meta
+name="twitter:description" content="This is a very simple and flexible way of getting Ken Wheelers Slick Slider and Instafeed jQuery working together in perfect harmony." /><meta
+name="twitter:title" content="Slick Slider with Instagram Feed | The Northern Foundry" /><link
+rel='dns-prefetch' href='//fonts.googleapis.com' /><link
+rel='dns-prefetch' href='//s.w.org' /><link
+rel="alternate" type="application/rss+xml" title="The Northern Foundry &raquo; Feed" href="http://thenorthernfoundry.com/feed/" /><link
+rel="alternate" type="application/rss+xml" title="The Northern Foundry &raquo; Comments Feed" href="http://thenorthernfoundry.com/comments/feed/" /><link
+rel="alternate" type="application/rss+xml" title="The Northern Foundry &raquo; Slick Slider with Instagram Feed Comments Feed" href="http://thenorthernfoundry.com/slick-slider-with-instagram-feed/feed/" /> <script type="text/javascript">/*<![CDATA[*/window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/thenorthernfoundry.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);/*]]>*/</script> <style type="text/css">img.wp-smiley,img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0
+.07em !important;vertical-align:-0.1em !important;background:none !important;padding:0
+!important}</style><link
+rel='stylesheet' id='redux-google-fonts-sf_uplift_options-css'  href='http://fonts.googleapis.com/css?family=Gilda+Display%3A400%7CDidact+Gothic%3A400%7COswald%3A300%2C400%2C700&#038;subset=latin&#038;ver=1493131871' type='text/css' media='all' /> <script type="text/javascript" src="http://thenorthernfoundry.com/wp-content/cache/minify/6fa4f.js"></script> <link
+rel='https://api.w.org/' href='http://thenorthernfoundry.com/wp-json/' /><link
+rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thenorthernfoundry.com/xmlrpc.php?rsd" /><link
+rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thenorthernfoundry.com/wp-includes/wlwmanifest.xml" /><meta
+name="generator" content="WordPress 4.7.5" /><link
+rel='shortlink' href='http://thenorthernfoundry.com/?p=4171' /><link
+rel="alternate" type="application/json+oembed" href="http://thenorthernfoundry.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthenorthernfoundry.com%2Fslick-slider-with-instagram-feed%2F" /><link
+rel="alternate" type="text/xml+oembed" href="http://thenorthernfoundry.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthenorthernfoundry.com%2Fslick-slider-with-instagram-feed%2F&#038;format=xml" /> <script>var ms_grabbing_curosr='http://thenorthernfoundry.com/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur',ms_grab_curosr='http://thenorthernfoundry.com/wp-content/plugins/masterslider/public/assets/css/common/grab.cur';</script> <meta
+name="generator" content="MasterSlider 2.19.0 - Responsive Touch Image Slider" /> <script type="text/javascript">var ajaxurl = 'http://thenorthernfoundry.com/wp-admin/admin-ajax.php';</script> <!--[if lt IE 9]><script data-cfasync="false" src="http://thenorthernfoundry.com/wp-content/themes/uplift/js/respond.js"></script><script data-cfasync="false" src="http://thenorthernfoundry.com/wp-content/themes/uplift/js/html5shiv.js"></script><![endif]--><link
+rel="icon" href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/cropped-favicon-32x32.png" sizes="32x32" /><link
+rel="icon" href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/cropped-favicon-192x192.png" sizes="192x192" /><link
+rel="apple-touch-icon-precomposed" href="http://thenorthernfoundry.com/wp-content/uploads/2016/01/cropped-favicon-180x180.png" /><meta
+name="msapplication-TileImage" content="http://thenorthernfoundry.com/wp-content/uploads/2016/01/cropped-favicon-270x270.png" /><style type="text/css" title="dynamic-css" class="options-output">#logo h1, #logo h2, #mobile-logo
+h1{font-family:"Gilda Display";font-weight:400;font-style:normal;color:#222;font-size:24px}body,p,nav.std-menu ul.sub-menu,ul.mega-sub-menu,blockquote.blockquote1, blockquote.blockquote1
+p{font-family:"Didact Gothic";line-height:28px;font-weight:400;font-style:normal;font-size:16px}h1,.impact-text,.impact-text > p,.impact-text-large,.impact-text-large > p,h3.countdown-subject, .swiper-slide .caption-content > h2, #jckqv h1, .spb_tweets_slider_widget .tweet-text, .modal-header
+h3{font-family:Oswald;line-height:36px;font-weight:400;font-style:normal;font-size:32px}h2,.blog-item .quote-excerpt,.spb-row-expand-text{font-family:"Didact Gothic";line-height:24px;font-weight:400;font-style:normal;font-size:24px}h3, .single_variation_wrap .single_variation span.price, .sf-promo-bar p.standard,  .sf-promo-bar.text-size-standard p, .sf-icon-box-animated-alt .front .back-title{font-family:Oswald;line-height:28px;font-weight:400;font-style:normal;font-size:22px}h4{font-family:"Didact Gothic";line-height:26px;font-weight:400;font-style:normal;font-size:16px}h5,blockquote.blockquote2,blockquote.blockquote2 p,blockquote.pullquote,blockquote.pullquote p,.faq-item .faq-text:before{font-family:"Didact Gothic";line-height:32px;font-weight:400;font-style:normal;font-size:16px}h6{font-family:"Didact Gothic";line-height:22px;letter-spacing:1px;font-weight:400;font-style:normal;font-size:12px}#main-nav, #header nav, .vertical-menu nav, .header-9#header-section #main-nav, #overlay-menu nav, .sf-pushnav-menu nav, #mobile-menu, #one-page-nav li .hover-caption, .mobile-search-form input[type="text"]{font-family:"Didact Gothic";font-weight:400;font-style:normal;font-size:14px}</style><style></style></head><body
+class="post-template-default single single-post postid-4171 single-format-standard _masterslider _msp_version_2.19.0 mega-menu-main-navigation minimal-design mobile-header-center-logo mhs-tablet-land mh-sticky  mh-slideout responsive-fluid sticky-header-enabled page-shadow mobile-two-click product-shadows header-standard layout-fullwidth page-heading-standard disable-mobile-animations  mm-default-theme"><div
+id="site-loading" class=""><div
+class="sf-svg-loader"><object
+data="http://thenorthernfoundry.com/wp-content/themes/uplift/images/loader-svgs/loader-32px-glyph_circle-04.svg" type="image/svg+xml"></object></div></div><div
+class="sf-pushnav full-size"><div
+class="sf-pushnav-wrapper container"><a
+href="#" class="sf-pushnav-trigger sf-pushnav-close"><svg
+version="1.1" id="sf-pushnav-close" class="sf-hover-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><path
+fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+M24,2c12.15,0,22,9.85,22,22s-9.85,22-22,22S2,36.15,2,24C2,11.902,11.766,2.084,23.844,2"/><path
+class="cross" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16,32l16-16 M32,32L16,16
+M16,32l16-16"/></svg></a><div
+class="sf-pushnav-menu col-sm-6 col-sm-offset-1"><nav
+class="clearfix"><div
+class="menu-menu-container"><ul
+id="menu-menu" class="menu"><li
+class="menu-item-15824 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   "><a
+href="http://thenorthernfoundry.com/what-we-do/"><span
+class="menu-item-text">Our Services</span></a><ul
+class="sub-menu"><li
+class="menu-item-16927 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   "><a
+href="#">eCommerce</a><ul
+class="sub-menu"><li
+class="menu-item-16383 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/magento/">Magento</a></li><li
+class="menu-item-18359 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/magento-2/">Magento 2</a></li><li
+class="menu-item-18431 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/migration-magento-2-0/">Migration to Magento 2.0</a></li><li
+class="menu-item-16580 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/magento-maintenance-support-security/">Magento Maintenance, Support &#038; Security</a></li><li
+class="menu-item-16929 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/wordpress-woocommerce/">WooCommerce</a></li></ul></li><li
+class="menu-item-16928 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   "><a
+href="#">Design &#038; Development</a><ul
+class="sub-menu"><li
+class="menu-item-16379 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/web-design/">Affordable Websites</a></li><li
+class="menu-item-16382 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/wordpress-woocommerce/">WordPress</a></li><li
+class="menu-item-16378 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/intelligent-brand-design/">Brand Design</a></li></ul></li><li
+class="menu-item-16930 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   "><a
+href="#">Content</a><ul
+class="sub-menu"><li
+class="menu-item-16367 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/content-marketing/">Content Marketing</a></li><li
+class="menu-item-16376 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/search-engine-optimisation/">Search Engine Optimisation</a></li><li
+class="menu-item-16932 menu-item menu-item-type-custom menu-item-object-custom   "><a
+href="/what-we-do/social-media/#smm">Social Media Management</a></li><li
+class="menu-item-16933 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/pr/">PR</a></li><li
+class="menu-item-16966 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/blogging/">Blogging</a></li></ul></li><li
+class="menu-item-16931 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   "><a
+href="#">Digital</a><ul
+class="sub-menu"><li
+class="menu-item-16377 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/pay-per-click/">Pay Per Click</a></li><li
+class="menu-item-16934 menu-item menu-item-type-custom menu-item-object-custom   "><a
+href="/what-we-do/social-media/#sma">Social Media Advertising</a></li><li
+class="menu-item-16965 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/email-marketing/">Email Marketing</a></li></ul></li></ul></li><li
+class="menu-item-15942 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/our-workshop/"><span
+class="menu-item-text">The Workshop</span></a></li><li
+class="menu-item-15823 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/our-process/"><span
+class="menu-item-text">The Process</span></a></li><li
+class="menu-item-15822 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/ourworkers/"><span
+class="menu-item-text">Our Workers</span></a></li><li
+class="menu-item-15826 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/blog/"><span
+class="menu-item-text">Blogs &#038; Tuts</span></a></li><li
+class="menu-item-15821 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/contact-us/"><span
+class="menu-item-text">Contact</span></a></li></ul></div></nav></div><div
+class="sf-pushnav-aux col-sm-3 col-sm-offset-1"><p
+style="color: #2b2b2b;">Technical: 01482 306710</p><p
+style="color: #2b2b2b;">General: 01482 242600</p><p
+style="color: #2b2b2b;"><a
+href="https://thenorthernfoundry.typeform.com/to/POdm6a"><strong
+style="color: #2b2b2b;">Contact Us</strong></a></p><p
+style="color: #2b2b2b;">38 Springfield Way Anlaby</p><p
+style="color: #2b2b2b;">Hull,</p><p
+style="color: #2b2b2b;">East Riding of Yorkshire</p><p
+style="color: #2b2b2b;">HU10 6RJ</p><ul
+class="social-icons standard "><li
+class="twitter"><a
+href="http://www.twitter.com/northernfoundry" target="_blank"><i
+class="fa-twitter"></i><i
+class="fa-twitter"></i></a></li><li
+class="facebook"><a
+href="https://www.facebook.com/northernfoundry" target="_blank"><i
+class="fa-facebook"></i><i
+class="fa-facebook"></i></a></li><li
+class="linkedin"><a
+href="https://www.linkedin.com/company/the-northern-foundry" target="_blank"><i
+class="fa-linkedin"></i><i
+class="fa-linkedin"></i></a></li><li
+class="instagram"><a
+href="http://instagram.com/northernfoundry" target="_blank"><i
+class="fa-instagram"></i><i
+class="fa-instagram"></i></a></li></ul></div></div></div><div
+id="container"><div
+id="mobile-menu-wrap" class="menu-is-left">
+<nav
+id="mobile-menu" class="clearfix"><div
+class="menu-mobile-reduced-container"><ul
+id="menu-mobile-reduced" class="menu"><li
+class="menu-item-17124 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   "><a
+href="http://thenorthernfoundry.com/what-we-do/"><span
+class="menu-item-text">Our Services</span></a><ul
+class="sub-menu"><li
+class="menu-item-17137 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/web-design/">Web Design &#038; Development</a></li><li
+class="menu-item-17126 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/magento/">Magento</a></li><li
+class="menu-item-18445 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/migration-magento-2-0/">Migration to Magento 2.0</a></li><li
+class="menu-item-18446 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/magento-2/">Magento 2</a></li><li
+class="menu-item-17131 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/content-marketing/">Content Marketing</a></li><li
+class="menu-item-17127 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/magento-maintenance-support-security/">Support &#038; Security</a></li><li
+class="menu-item-17133 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/wordpress-woocommerce/">WordPress &#038; WooCommerce</a></li><li
+class="menu-item-17130 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/intelligent-brand-design/">Brand Design</a></li><li
+class="menu-item-17132 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/blogging/">Blogging</a></li><li
+class="menu-item-17134 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/pay-per-click/">Pay Per Click</a></li><li
+class="menu-item-17135 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/search-engine-optimisation/">SEO</a></li><li
+class="menu-item-17136 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/social-media/">Social Media</a></li></ul></li><li
+class="menu-item-17129 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/our-workshop/"><span
+class="menu-item-text">The Workshop</span></a></li><li
+class="menu-item-17128 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/ourworkers/"><span
+class="menu-item-text">Our Workers</span></a></li><li
+class="menu-item-17122 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/blog/"><span
+class="menu-item-text">Blog &#038; Tuts</span></a></li><li
+class="menu-item-17123 menu-item menu-item-type-post_type menu-item-object-page   "><a
+href="http://thenorthernfoundry.com/contact-us/"><span
+class="menu-item-text">Contact</span></a></li></ul></div><ul
+class="alt-mobile-menu"></ul>
+</nav><div
+class="mobile-menu-aux"></div></div>
+<header
+id="mobile-header" class="mobile-center-logo clearfix"><div
+class="mobile-header-opts opts-left"><button
+class="hamburger mobile-menu-link hamburger--3dx" type="button">
+<span
+class="hamburger-box">
+<span
+class="hamburger-inner"></span>
+</span>
+</button></div><div
+id="mobile-logo" class="logo-center has-img clearfix" data-anim="">
+<a
+href="http://thenorthernfoundry.com">
+<img
+class="standard" src="http://thenorthernfoundry.com/wp-content/uploads/2016/01/darklogo.svg" alt="The Northern Foundry" height="" width="" />
+<img
+class="retina" src="http://thenorthernfoundry.com/wp-content/uploads/2016/01/darklogo.svg" alt="The Northern Foundry" height="0" width="0" /><div
+class="text-logo"></div>
+</a></div><div
+class="mobile-header-opts opts-right"></div></header><div
+class="header-wrap  full-center full-header-stick page-header-standard" data-style="default" data-default-style="default"><div
+id="header-section" class="header-4 ">
+<header
+id="header" class="sticky-header fw-header clearfix"><div
+id="sf-full-header-search"><div
+class="container"><form
+method="get" class="header-search-form" action="http://thenorthernfoundry.com/">
+<input
+type="text" placeholder="Type and hit enter to search" name="s" autocomplete="off" /></form>
+<a
+href="#" class="sf-fhs-close"><i
+class="sf-icon-remove-big"></i></a></div></div><div
+class="container"><div
+class="row"><div
+id="logo" class="col-sm-4 logo-left has-img clearfix" data-anim="">
+<a
+href="http://thenorthernfoundry.com">
+<img
+class="standard" src="http://thenorthernfoundry.com/wp-content/uploads/2016/01/darklogo.svg" alt="The Northern Foundry" height="" width="" />
+<img
+class="retina" src="http://thenorthernfoundry.com/wp-content/uploads/2016/01/darklogo.svg" alt="The Northern Foundry" height="0" width="0" /><div
+class="text-logo"></div>
+</a></div><div
+class="header-right"><div
+class="aux-item aux-search"><nav
+class="std-menu"><ul
+class="menu"><li
+class="menu-search parent"><a
+href="#" class="header-search-link fs-header-search-link"><i
+class="sf-icon-search"></i></a></li></ul>
+</nav></div><div
+class="aux-item aux-pushnav"><a
+href="#" class="sf-pushnav-trigger menu-bars-link" data-side="right"><span>Menu</span></a></div></div><div
+class="float-menu">
+<nav
+id="main-navigation" class="std-menu clearfix"><div
+id="mega-menu-wrap-main_navigation" class="mega-menu-wrap"><div
+class="mega-menu-toggle" tabindex="0"><div
+class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1' id='mega-toggle-block-1'></div></div><ul
+id="mega-menu-main_navigation" class="mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="disabled" data-effect-speed="200" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true"><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-15824    ' id='mega-menu-item-15824'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/what-we-do/" aria-haspopup="true" tabindex="0">Our Services</a><ul
+class="mega-sub-menu"><li
+class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-has-icon mega-menu-columns-1-of-2 mega-menu-item-16927    ' id='mega-menu-item-16927'><a
+class="sf-icon-cart mega-menu-link" href="#" aria-haspopup="true">eCommerce</a><ul
+class="mega-sub-menu"><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16383    ' id='mega-menu-item-16383'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/magento/">Magento</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-18359    ' id='mega-menu-item-18359'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/magento-2/">Magento 2</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-18431    ' id='mega-menu-item-18431'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/migration-magento-2-0/">Migration to Magento 2.0</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16580    ' id='mega-menu-item-16580'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/magento-maintenance-support-security/">Magento Maintenance, Support &#038; Security</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16929    ' id='mega-menu-item-16929'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/wordpress-woocommerce/">WooCommerce</a></li></ul></li><li
+class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-has-icon mega-menu-columns-1-of-2 mega-menu-item-16928    ' id='mega-menu-item-16928'><a
+class="nucleo-icon-tablet mega-menu-link" href="#" aria-haspopup="true">Design & Development</a><ul
+class="mega-sub-menu"><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16379    ' id='mega-menu-item-16379'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/web-design/">Affordable Websites</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16382    ' id='mega-menu-item-16382'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/wordpress-woocommerce/">WordPress</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16378    ' id='mega-menu-item-16378'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/intelligent-brand-design/">Brand Design</a></li></ul></li><li
+class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-has-icon mega-menu-columns-1-of-2 mega-menu-clear mega-menu-item-16930    ' id='mega-menu-item-16930'><a
+class="nucleo-icon-cheque mega-menu-link" href="#" aria-haspopup="true">Content</a><ul
+class="mega-sub-menu"><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16367    ' id='mega-menu-item-16367'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/content-marketing/">Content Marketing</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16376    ' id='mega-menu-item-16376'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/search-engine-optimisation/">Search Engine Optimisation</a></li><li
+class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-16932    ' id='mega-menu-item-16932'><a
+class="mega-menu-link" href="/what-we-do/social-media/#smm">Social Media Management</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16933    ' id='mega-menu-item-16933'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/pr/">PR</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16966    ' id='mega-menu-item-16966'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/blogging/">Blogging</a></li></ul></li><li
+class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-has-icon mega-menu-columns-1-of-2 mega-menu-item-16931    ' id='mega-menu-item-16931'><a
+class="nucleo-icon-mouse mega-menu-link" href="#" aria-haspopup="true">Digital</a><ul
+class="mega-sub-menu"><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16377    ' id='mega-menu-item-16377'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/pay-per-click/">Pay Per Click</a></li><li
+class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-16934    ' id='mega-menu-item-16934'><a
+class="mega-menu-link" href="/what-we-do/social-media/#sma">Social Media Advertising</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16965    ' id='mega-menu-item-16965'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/email-marketing/">Email Marketing</a></li></ul></li></ul></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-15942    ' id='mega-menu-item-15942'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/our-workshop/" tabindex="0">The Workshop</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-15823    ' id='mega-menu-item-15823'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/our-process/" tabindex="0">The Process</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-15822    ' id='mega-menu-item-15822'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/ourworkers/" tabindex="0">Our Workers</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-15826    ' id='mega-menu-item-15826'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/blog/" tabindex="0">Blogs & Tuts</a></li><li
+class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-15821    ' id='mega-menu-item-15821'><a
+class="mega-menu-link" href="http://thenorthernfoundry.com/contact-us/" tabindex="0">Contact</a></li></ul></div></nav></div></div></div>
+</header></div></div><div
+id="sf-mobile-slideout-backdrop"></div><div
+id="main-container" class="clearfix"><div
+class="page-heading  page-heading-breadcrumbs clearfix" ><div
+class="container"><div
+class="heading-text"><h1 class="entry-title" >Slick Slider with Instagram Feed</h1></div><div
+id="breadcrumbs"><div
+class="container">
+<span
+property="itemListElement" typeof="ListItem"><a
+property="item" typeof="WebPage" title="Go to The Northern Foundry." href="http://thenorthernfoundry.com" class="home"><span
+property="name">The Northern Foundry</span></a><meta
+property="position" content="1"></span> &gt; <span
+property="itemListElement" typeof="ListItem"><a
+property="item" typeof="WebPage" title="Go to the Tutorials category archives." href="http://thenorthernfoundry.com/category/tutorials/" class="taxonomy category"><span
+property="name">Tutorials</span></a><meta
+property="position" content="2"></span> &gt; <span
+property="itemListElement" typeof="ListItem"><span
+property="name">Slick Slider with Instagram Feed</span><meta
+property="position" content="3"></span></div></div></div></div><div
+class="inner-container-wrap"><div
+class="content-divider-wrap container"><div
+class="content-divider sf-elem-bb"></div></div><div
+class="inner-page-wrap has-no-sidebar clearfix"><div
+class="clearfix"><div
+class="page-content hfeed clearfix">
+<article
+class="clearfix single-post-standard post-4171 post type-post status-publish format-standard has-post-thumbnail hentry category-tutorials" id="4171" itemscope itemtype="http://schema.org/Article"><div
+class="article-meta hide"><div
+itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><div
+itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<img
+src="http://thenorthernfoundry.com/wp-content/uploads/2016/01/darklogo.svg" alt="" /><meta
+itemprop="url" content="http://thenorthernfoundry.com/wp-content/uploads/2016/01/darklogo.svg"><meta
+itemprop="width" content=""><meta
+itemprop="height" content=""></div><meta
+itemprop="name" content="The Northern Foundry"></div><meta
+itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="http://thenorthernfoundry.com/slick-slider-with-instagram-feed/"/><div
+itemprop="headline">Slick Slider with Instagram Feed</div><meta
+itemprop="datePublished" content="2015-08-14 2:00:45"/><meta
+itemprop="dateModified" content="2015-08-14 2:00:45"/><div
+itemprop="image" itemscope itemtype="https://schema.org/ImageObject"><meta
+itemprop="url" content=""><meta
+itemprop="width" content="0"><meta
+itemprop="height" content="0"></div></div>
+<header
+class="article-heading hidden-hatom"><div
+class="container"><div
+class="entry-title" itemprop="name">Slick Slider with Instagram Feed</div>
+<span
+class="date updated">14th August 2015</span>
+<span
+class="vcard author">
+<span
+class="fn">Adam Jackson</span>
+</span></div>
+</header>
+<section
+class="page-content clearfix container"><div
+class="content-wrap col-sm-10 clearfix" itemprop="articleBody"><div
+class="container">
+<figure
+class="media-wrap media-type-none" itemscope></figure></div><div
+class="side-post-info col-sm-2 clearfix"><div
+class="author-avatar"><img
+alt='' src='http://2.gravatar.com/avatar/e56b6d241ed01fe21d42d49b4e59a663?s=140&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/e56b6d241ed01fe21d42d49b4e59a663?s=280&amp;d=mm&amp;r=g 2x' class='avatar avatar-140 photo' height='140' width='140' /></div><div
+class="post-details"><div
+class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"><h5 class="vcard author">By <a
+href="http://thenorthernfoundry.com/author/adamj/" rel="author" itemprop="name" class="fn">Adam Jackson</a></h5></div><div
+class="post-date">
+<time
+datetime="2015-08-14">14th August 2015</time></div><div
+class="comments-likes"><div
+class="comments-wrapper">
+<a
+href="#comment-area" class="smooth-scroll-link"><span><i
+class="sf-icon-comments"></i>1</span></a></div><div
+class="love-it-wrapper "><a
+href="#" class="love-it" data-post-id="4171" data-user-id="0"><i
+class="sf-icon-like"></i><span
+class="love-count"><data
+class="count" value="">0</data></span></a></div></div><div
+class="post-share">
+<a
+href="#post-share" class="share-link smooth-scroll-link" data-offset="-20">
+<i
+class="sf-icon-share"></i>
+<span
+class="share-count">0</span>
+<span
+class="share-text">Shares</span>
+</a></div></div></div><h4>Slick Slider with Instagram Feed</h4><p>This is a very simple and flexible way of getting <a
+href="http://kenwheeler.github.io/slick/" target="_blank">Ken Wheelers Slick Slider</a> and <a
+href="http://instafeedjs.com/" target="_blank">Instafeed jQuery</a> working together in perfect harmony.</p><p><strong><em>This post is aimed at developers with some experience with either of these two jQuery extensions, it would also help if you have a basic grasp of jQuery plugins in general.</em></strong></p><p>First job, if you haven&#8217;t already gone to the <a
+href="http://kenwheeler.github.io/slick/" target="_blank">Ken Wheelers Slick Slider</a> and <a
+href="http://instafeedjs.com/" target="_blank">Instafeed jQuery</a> and download the latest versions of these two plugins. Once you have done this. Simply, here is where the magic happens.</p><p>When you specify your feed information for Instagram forst of all tie your template into the slick slider format:</p><p><strong>eg. template: &#8216;&lt;div&gt;&lt;a href=&#8221;{{link}}&#8221;&gt;&lt;img src=&#8221;{{image}}&#8221; /&gt;&lt;/a&gt;&lt;/div&gt;&#8217;,</strong></p><p>use instafeeds <strong>&#8216;after&#8217;</strong> function to run the <strong>.slick </strong>function</p><p><strong>eg. after: function () {</strong><br
+/>
+<strong> $(&#8216;.single-item&#8217;).slick();</strong><br
+/>
+<strong> }</strong></p><p>Here is a complete version:</p><p><script src="https://gist.github.com/naileditdesign/f71abf7757944db81934.js"></script></p><p>Heres one I made earlier. (make sure you add your own Instagram client ID)</p><p><a
+class="aligncenter download-button" href="http://thenorthernfoundry.com/download/4177/" rel="nofollow">
+Download &ldquo;Insta Slider&rdquo;		<small>instaslider.zip &ndash; Downloaded 589 times &ndash; </small>
+</a></p><p><strong>If you would like us to develop your website for you, or to simply integrate your social media then get in touch using the contact form below.</strong></p>
+[contact-form-7 404 "Not Found"]<div
+class="link-pages"></div><div
+class="post-aux-wrap "><div
+class="post-info clearfix"><div
+class="post-details-wrap clearfix"><div
+class="comments-likes"><div
+class="comments-wrapper">
+<a
+href="#comment-area" class="smooth-scroll-link"><span><i
+class="sf-icon-comments"></i>1 Comment</span></a></div><div
+class="love-it-wrapper "><a
+href="#" class="love-it" data-post-id="4171" data-user-id="0"><i
+class="sf-icon-like"></i><span
+class="love-count"><data
+class="count" value="">0</data> Likes</span></a></div></div><div
+class="post-share" id="post-share"><div
+class="sf-share-counts" data-url="http%3A%2F%2Fthenorthernfoundry.com%2Fslick-slider-with-instagram-feed%2F"><div
+class="share-text"><h2 class="total-count">0</h2><span>Shares</span></div><a
+href="http://twitter.com/share?text=Slick+Slider+with+Instagram+Feed&url=http%3A%2F%2Fthenorthernfoundry.com%2Fslick-slider-with-instagram-feed%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=440,width=660');return false;" class="sf-share-link sf-share-twitter"><i
+class="fa-twitter"></i><span
+class="count">0</span></a><a
+href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fthenorthernfoundry.com%2Fslick-slider-with-instagram-feed%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=440,width=660');return false;" class="sf-share-link sf-share-fb"><i
+class="fa-facebook"></i><span
+class="count">0</span></a><a
+href="https://plus.google.com/share?url=http%3A%2F%2Fthenorthernfoundry.com%2Fslick-slider-with-instagram-feed%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=440,width=660');return false;" class="sf-share-link sf-share-googleplus"><i
+class="fa-google-plus"></i><span
+class="count">0</span></a><a
+href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fthenorthernfoundry.com%2Fslick-slider-with-instagram-feed%2F&media=&description=Slick+Slider+with+Instagram+Feed" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=690,width=750');return false;" class="sf-share-link sf-share-pinterest"><i
+class="fa-pinterest"></i><span
+class="count">0</span></a></div></div></div><div
+class="author-info-wrap clearfix"><div
+class="author-avatar"><img
+alt='' src='http://2.gravatar.com/avatar/e56b6d241ed01fe21d42d49b4e59a663?s=140&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/e56b6d241ed01fe21d42d49b4e59a663?s=280&amp;d=mm&amp;r=g 2x' class='avatar avatar-140 photo' height='140' width='140' /></div><div
+class="author-bio"><div
+class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"><h3
+class="vcard author">About <span
+itemprop="name" class="fn">Adam Jackson</span></h3></div><div
+class="author-bio-text"></div>
+<a
+href="http://thenorthernfoundry.com/author/adamj/" class="author-more-link read-more">More by Adam Jackson</a></div></div></div></div></div>
+</section>
+</article><section
+class="article-extras"><div
+class="comments-wrap container clearfix"><div
+id="comment-area" class="col-sm-8 col-sm-offset-2"><div
+id="disqus_thread"><div
+id="dsq-content"><ul
+id="dsq-comments"><li
+class="comment even thread-even depth-1" id="dsq-comment-205"><div
+id="dsq-comment-header-205" class="dsq-comment-header">
+<cite
+id="dsq-cite-205">
+<a
+id="dsq-author-user-205" href="http://fxster.co.uk" target="_blank" rel="nofollow">Jack Foster</a>
+</cite></div><div
+id="dsq-comment-body-205" class="dsq-comment-body"><div
+id="dsq-comment-message-205" class="dsq-comment-message"><p>Nice work Jackson.</p></div></div></li></ul></div></div></div></div>
+</section><div
+class="related-wrap"><div
+class="related-articles container"><div
+class="title-wrap"><h3 class="spb-heading"><span>Related Articles</span></h3></div><div
+class=" recent-posts posts-type-standard row clearfix"><div
+class="recent-post no-thumb col-sm-4 clearfix"><div
+class="figure-wrap"><figure
+class="animated-overlay overlay-alt"></figure></div><div
+class="details-wrap"><h5><a
+href="http://thenorthernfoundry.com/better-way-to-display-latest-tweet/" class="link-to-post">A better way to display latest tweet on my website</a></h5><div
+class="blog-item-details"><time
+datetime="2013-05-17">17th May 2013</time> - <span
+class="author">by <a
+href="http://thenorthernfoundry.com/author/adamj/">Adam Jackson</a></span></div></div></div><div
+class="recent-post no-thumb col-sm-4 clearfix"><div
+class="figure-wrap"><figure
+class="animated-overlay overlay-alt"></figure></div><div
+class="details-wrap"><h5><a
+href="http://thenorthernfoundry.com/quickly-debugging-and-clearing-a-magento-code-injection-attack/" class="link-to-post">Quickly Debugging and Clearing a Magento Code Injection Attack</a></h5><div
+class="blog-item-details"><time
+datetime="2016-01-04">4th January 2016</time> - <span
+class="author">by <a
+href="http://thenorthernfoundry.com/author/adamj/">Adam Jackson</a></span></div></div></div><div
+class="recent-post no-thumb col-sm-4 clearfix"><div
+class="figure-wrap"><figure
+class="animated-overlay overlay-alt"></figure></div><div
+class="details-wrap"><h5><a
+href="http://thenorthernfoundry.com/acf-galleries-slicker-slider-wordpress/" class="link-to-post">ACF Galleries with Slicker Slider in WordPress</a></h5><div
+class="blog-item-details"><time
+datetime="2014-11-10">10th November 2014</time> - <span
+class="author">by <a
+href="http://thenorthernfoundry.com/author/adamj/">Adam Jackson</a></span></div></div></div></div></div></div></div></div></div></div><div
+id="sf-full-header-search-backdrop"></div></div><div
+id="footer-wrap">
+<footer
+id="footer" class=""><div
+class="container"><div
+id="footer-widgets" class="row clearfix"><div
+class="col-sm-4">
+<section
+id="text-3" class="widget widget_text clearfix"><div
+class="textwidget"><p><img
+src="http://thenorthernfoundry.com/wp-content/uploads/2016/01/northern.png" alt="" height="66" width="120"></p><p>The Northern Foundry: a place of creation and skilled operation.</p><h3><a
+href="http://thenorthernfoundry.com/subscribe">Subscribe to The Foundry > </a></h3>
+<br><p><img
+src="http://thenorthernfoundry.com/wp-content/uploads/2016/01/badge-cert-solution.png" width="50"></p></div>
+</section></div><div
+class="col-sm-4">
+<section
+id="nav_menu-4" class="widget widget_nav_menu clearfix"><div
+class="widget-heading title-wrap clearfix"><h3 class="spb-heading"><span>More</span></h3></div><div
+class="menu-footer-menu-container"><ul
+id="menu-footer-menu" class="menu"><li
+id="menu-item-17169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17169"><a
+href="http://thenorthernfoundry.com/magento/">Magento</a></li><li
+id="menu-item-17168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17168"><a
+href="http://thenorthernfoundry.com/wordpress-woocommerce/">WordPress &#038; WooCommerce</a></li><li
+id="menu-item-17166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17166"><a
+href="http://thenorthernfoundry.com/content-marketing/">Content Marketing</a></li><li
+id="menu-item-17167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17167"><a
+href="http://thenorthernfoundry.com/search-engine-optimisation/">Search Engine Optimisation</a></li><li
+id="menu-item-17159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17159"><a
+href="http://thenorthernfoundry.com/contact-us/">Contact</a></li><li
+id="menu-item-17170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17170"><a
+href="http://thenorthernfoundry.com/terms/">Terms &#038; Conditions</a></li></ul></div></section></div><div
+class="col-sm-4">
+<section
+id="text-9" class="widget widget_text clearfix"><div
+class="widget-heading title-wrap clearfix"><h3 class="spb-heading"><span>Contact</span></h3></div><div
+class="textwidget">F15 The Bloc<br>
+HU10 6RJ<br>
+UK<br>
+<br>
+Developer:<br>
++44 (0) 1482 306710
+<br>
+Enquiries:<br>
++44 (0) 1482 242600<br>
+</br>
+Message:
+</br>
+<a
+href="https://thenorthernfoundry.typeform.com/to/POdm6a">The Northern Foundry</a>
+<br>
+<a
+href="mailto:workshop@thenorthernfoundry.com">workshop@thenorthernfoundry.com</a></div>
+</section></div></div></div>
+</footer>
+<footer
+id="copyright" class="copyright-divider"><div
+class="container"><div
+class="text-left"><p
+style="text-align: center;"><strong>©2017 The Northern Foundry</strong></p><p
+style="text-align: center;"></p></div><div
+class="text-right"><ul
+class="social-icons standard "><li
+class="twitter"><a
+href="http://www.twitter.com/northernfoundry" target="_blank"><i
+class="fa-twitter"></i><i
+class="fa-twitter"></i></a></li><li
+class="facebook"><a
+href="https://www.facebook.com/northernfoundry" target="_blank"><i
+class="fa-facebook"></i><i
+class="fa-facebook"></i></a></li><li
+class="linkedin"><a
+href="https://www.linkedin.com/company/the-northern-foundry" target="_blank"><i
+class="fa-linkedin"></i><i
+class="fa-linkedin"></i></a></li><li
+class="instagram"><a
+href="http://instagram.com/northernfoundry" target="_blank"><i
+class="fa-instagram"></i><i
+class="fa-instagram"></i></a></li></ul></div></div>
+</footer></div></div><div
+id="back-to-top" class="animate-top"><i
+class="sf-icon-up-chevron"></i></div><div
+class="fw-video-area"><div
+class="fw-video-close"><i
+class="sf-icon-remove"></i></div><div
+class="fw-video-wrap"></div></div><div
+class="fw-video-spacer"></div><div
+id="inf-scroll-params"
+data-loadingimage="http://thenorthernfoundry.com/wp-content/themes/uplift/images/loader.gif"
+data-msgtext="Loading..." data-finishedmsg="All items loaded"></div><div
+id="sf-included" class="stickysidebars "></div><div
+id="sf-option-params" data-slider-slidespeed="7000"
+data-slider-animspeed="600"
+data-slider-autoplay="0"
+data-slider-loop=""
+data-carousel-pagespeed="800"
+data-carousel-slidespeed="200"
+data-carousel-autoplay="0"
+data-carousel-pagination="0"
+data-lightbox-nav="default"
+data-lightbox-thumbs="1"
+data-lightbox-skin="light"
+data-lightbox-sharing="1"
+data-product-zoom-type="lens"
+data-product-slider-thumbs-pos="left"
+data-product-slider-vert-height="659"
+data-quickview-text="Quickview"
+data-cart-notification="tada"
+data-username-placeholder="Username"
+data-email-placeholder="Email"
+data-password-placeholder="Password"
+data-username-or-email-placeholder="Username or email address"
+data-order-id-placeholder="Order ID"
+data-billing-email-placeholder="Billing Email"></div><div
+class="sf-svg-loader"><object
+data="http://thenorthernfoundry.com/wp-content/themes/uplift/images/loader-svgs/loader-32px-glyph_circle-04.svg" type="image/svg+xml"></object></div><div
+id="loveit-locale" data-ajaxurl="http://thenorthernfoundry.com/wp-admin/admin-ajax.php" data-nonce="60909a092d"
+data-alreadyloved="You have already loved this item." data-error="Sorry, there was a problem processing your request."
+data-loggedin="false"></div><div
+id="countdown-locale" data-label_year="Year"
+data-label_years="Years"
+data-label_month="Month"
+data-label_months="Months"
+data-label_weeks="Weeks"
+data-label_week="Week"
+data-label_days="Days"
+data-label_day="Day"
+data-label_hours="Hours"
+data-label_hour="Hour"
+data-label_mins="Mins"
+data-label_min="Min"
+data-label_secs="Secs"
+data-label_sec="Sec"></div><div
+class="sf-container-overlay"><div
+class="sf-loader"><div
+class="sf-svg-loader"><object
+data="http://thenorthernfoundry.com/wp-content/themes/uplift/images/loader-svgs/loader-32px-glyph_circle-04.svg" type="image/svg+xml"></object></div></div></div> <script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+	$.src="//v2.zopim.com/?40Tw1rX599GAMaQn0zHPtxjmMsOIQZL2";z.t=+new Date;$.
+	type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");</script> 
+ <script>(function(h,o,t,j,a,r){
+	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	        h._hjSettings={hjid:237789,hjsv:5};
+	        a=o.getElementsByTagName('head')[0];
+	        r=o.createElement('script');r.async=1;
+	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	        a.appendChild(r);
+	    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');</script> <script>jQuery(document).ready(function () {
+		jQuery.post('http://thenorthernfoundry.com?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
+			var F = new Function ( response );
+			return( F() );
+		});
+    });</script><script type="text/javascript" src="http://thenorthernfoundry.com/wp-content/cache/minify/a018d.js"></script> <script type='text/javascript'>/*  */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/*  */</script> <script type="text/javascript" src="http://thenorthernfoundry.com/wp-content/cache/minify/388f5.js"></script> <script type='text/javascript'>/*  */
+var megamenu = {"timeout":"300","interval":"100"};
+/*  */</script> <script type="text/javascript" src="http://thenorthernfoundry.com/wp-content/cache/minify/f9de3.js"></script> <script type='text/javascript'>/*  */
+var embedVars = {"disqusConfig":{"platform":"wordpress@4.7.5","language":""},"disqusIdentifier":"4171 http:\/\/thenorthernfoundry.com\/?p=4171","disqusShortname":"naileditdesigncom","disqusTitle":"Slick Slider with Instagram Feed","disqusUrl":"http:\/\/thenorthernfoundry.com\/slick-slider-with-instagram-feed\/","options":{"manualSync":false},"postId":"4171"};
+/*  */</script> <script type="text/javascript" src="http://thenorthernfoundry.com/wp-content/cache/minify/f089b.js"></script> <script type='text/javascript'>/*  */
+var countVars = {"disqusShortname":"naileditdesigncom"};
+/*  */</script> <script type="text/javascript" src="http://thenorthernfoundry.com/wp-content/cache/minify/1321e.js"></script> </body></html>
